@@ -1,6 +1,11 @@
 <!--Banner-->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=HELLO%20WORLD&fontSize=60&fontColor=ffffff&fontAlignY=42&desc=Welcome%20to%20my%20Profile&descAlignY=62&descSize=20&animation=fadeIn" width="100%"/>
 
+<!--Night Owl image-->
+<div>
+  <img align="right" width="35%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
+</div>
+
 <!--Header Name-->
 # <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> ɪ'ᴍ ꜱᴜᴅʜᴀʀꜱᴀɴᴀ!
 *Aspiring AI Engineer • AI & Data Science Student*
@@ -50,6 +55,13 @@
   <li>Agentic AI and multi-agent orchestration</li>
   <li>Advanced RAG architectures</li>
   <li>System design for production-grade AI applications</li>
+</ul>
+
+<h3 align="left">Latest Blog Posts</h3>
+<ul align="left">
+  <li><a href="[YOUR_BLOG_POST_URL_1]">[Your blog post title 1]</a></li>
+  <li><a href="[YOUR_BLOG_POST_URL_2]">[Your blog post title 2]</a></li>
+  <li><a href="[YOUR_BLOG_POST_URL_3]">[Your blog post title 3]</a></li>
 </ul>
 <br/>
 
