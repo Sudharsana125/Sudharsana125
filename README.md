@@ -47,9 +47,6 @@ Aspiring AI Engineer • AI & Data Science Student
   <img src="./Skills_Animation_Dark.gif" alt="Animated Tech Stack and Skills" width="100%"/>
 </p>
 
-<p align="center">
-  <em>Python • Java • SQL • Machine Learning • Generative AI • LLMs • RAG • Agentic AI • AI Agents • NLP • AI Automation • LangChain • CrewAI • Flowise • n8n • Pinecone • ChromaDB • FastAPI • Vector Embeddings • Pandas • NumPy • scikit-learn • TensorFlow • Keras • Matplotlib • Power BI • Excel • Tableau • Git • GitHub • Jupyter Notebook • Google Colab • VS Code</em>
-</p>
 
 <h3 align="left">Currently Learning</h3>
 <ul align="left">
@@ -68,7 +65,7 @@ Aspiring AI Engineer • AI & Data Science Student
 <br/>
 
 
-<h2 align="center">🌟 Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ 🌟</h2>
+<h2 align="center">Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ </h2>
 
 <!--STARTS_HERE_QUOTE_CARD-->
 
@@ -76,29 +73,24 @@ Aspiring AI Engineer • AI & Data Science Student
     <img src="https://readme-daily-quotes.vercel.app/api?author=Steve%20Jobs&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do.&theme=dark&bg_color=161b22&author_color=00e5ff&accent_color=6a11cb">
 </p>
 <!--ENDS_HERE_QUOTE_CARD-->
-
-<!--Contact Section-->
-
-<h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝</h2>
-<div align="center">
-
-<a href="mailto:[YOUR_EMAIL@example.com]" target="_blank">
-<img src="./gmail.png" width="50" height="50" alt="Email" style="margin-bottom: 5px;" />
-</a>
-
-<a href="https://github.com/Sudharsana125" target="_blank">
-<img src="./github.png" width="50" height="50" alt="Sudharsana125" style="margin-bottom: 5px;" />
-</a>
-
-<a href="https://www.linkedin.com/in/sudharsanak" target="_blank">
-<img src="./linkedin.png" width="50" height="50" alt="LinkedIn" style="margin-bottom: 5px;" />
-</a>
-
-</div>
-<br/>
-
-<!--Footer-->
+<h2 align="center">Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ</h2>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=65&section=footer"/>
+  <img src="https://readme-daily-quotes.vercel.app/api?author=Steve%20Jobs&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do.&theme=dark&bg_color=161b22&author_color=00e5ff&accent_color=6a11cb" alt="Thought of the Day"/>
 </p>
+
+<h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝</h2>
+
+<p align="center">
+  <a href="mailto:YOUR_EMAIL@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://github.com/Sudharsana125" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/sudharsanak" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</p>
+<!--Contact Section-->
+
