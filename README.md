@@ -3,6 +3,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:c9184a,100:ff4d94&height=200&section=header&text=Hello,%20I'm%20Sudharsana&fontSize=45&fontColor=ffffff&fontAlignY=35&desc=Nice%20to%20meet%20you&descSize=20&descAlignY=55&animation=fadeIn"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=8B5CF6&center=false&vCenter=true&width=500&lines=Aspiring+AI+Engineer;AI+%26+Data+Science+Student" alt="Typing SVG"/>
+
+
+
 <!--Night Owl image-->
 
 <div>
