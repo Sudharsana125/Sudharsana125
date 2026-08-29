@@ -46,7 +46,29 @@ Aspiring AI Engineer • AI & Data Science Student
 <p align="center">
   <img src="./Skills_Animation_Dark.gif" alt="Animated Tech Stack and Skills" width="100%"/>
 </p>
+<h2 align="center">✨ Thought of the Day ✨</h2>
 
+<hr>
+
+<p align="center">
+  <img src="https://readme-daily-quotes.vercel.app/api?author=Simon%20Sinek&quote=If%20no%20one%20ever%20broke%20the%20rules%2C%20then%20we%27d%20never%20advance.&theme=dark&bg_color=2d1b3d&author_color=ffd700&accent_color=e91e8c" alt="Thought of the Day"/>
+</p>
+
+<h2 align="center">🤝 Connect With Me 🤝</h2>
+
+<hr>
+
+<p align="center">
+  <a href="mailto:sudharsanak13@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://www.linkedin.com/in/sudharsanak" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/Sudharsana125" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
 
 
