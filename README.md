@@ -8,30 +8,20 @@
   <img align="right" width="35%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
 </div>
 
-<!--Header Name-->
+<h2> ❤️I'm Sudharsana!</h2>
 
-<img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> ɪ'ᴍ ꜱᴜᴅʜᴀʀꜱᴀɴᴀ!
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=8B5CF6&center=false&vCenter=true&width=500&lines=Aspiring+AI+Engineer;AI+%26+Data+Science+Student" alt="Typing SVG"/>
 
-Aspiring AI Engineer • AI & Data Science Student
-<br/>
+I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbatore, building Generative AI systems — Retrieval-Augmented Generation, LLM orchestration, and AI Agents — and turning them into real, working applications.
 
-<!--Start Intro-->
+✨ Building intelligent systems, one project at a time  
+🌱 Currently learning Agentic AI, Advanced RAG, and System Design for AI applications  
+🤖 Main project: an Intelligent Customer Support Chatbot powered by RAG (ChromaDB + Sentence Transformers + Streamlit + Gemini API)  
+📖 Published a book chapter with ESN Publications  
+🏆 Presented and competed at hackathons/conferences including RABSH and Pyexpo  
+💻 Visit my GitHub for more of my work  
 
-<p align="left">I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbatore, building Generative AI systems — Retrieval-Augmented Generation, LLM orchestration, and AI Agents — and turning them into real, working applications.</p>
-
-✨ Building intelligent systems, one project at a time
-
-🌱 Currently learning Agentic AI, Advanced RAG, and System Design for AI applications
-
-🤖 Main project: an Intelligent Customer Support Chatbot powered by RAG (ChromaDB + Sentence Transformers + Streamlit + Gemini API)
-
-📖 Published a book chapter with ESN Publications
-
-🏁 Presented and competed at hackathons/conferences including RABSH and Pyexpo
-
-💻 Visit my GitHub for more of my work
-
-<!--End Intro-->
+<img src="https://komarev.com/ghpvc/?username=Sudharsana125&label=PROFILE+VIEWS&color=6a11cb&style=for-the-badge"/>
 
 <!--Profile Count Badge-->
 
