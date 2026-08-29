@@ -21,7 +21,6 @@ I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbat
 🏆 Presented and competed at hackathons/conferences including RABSH and Pyexpo  
 💻 Visit my GitHub for more of my work  
 
-<img src="https://komarev.com/ghpvc/?username=Sudharsana125&label=PROFILE+VIEWS&color=6a11cb&style=for-the-badge"/>
 
 <!--Profile Count Badge-->
 
