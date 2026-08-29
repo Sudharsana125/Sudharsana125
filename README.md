@@ -48,49 +48,5 @@ Aspiring AI Engineer • AI & Data Science Student
 </p>
 
 
-<h3 align="left">Currently Learning</h3>
-<ul align="left">
-  <li>Agentic AI and multi-agent orchestration</li>
-  <li>Advanced RAG architectures</li>
-  <li>System design for production-grade AI applications</li>
-</ul>
 
-<h3 align="left">Recent Highlights</h3>
-<ul align="left">
-  <li>🏢 Internship at Benchmarrk (offline, June–July 2026)</li>
-  <li>💻 Internship at CodeAlpha (virtual, February–March 2026)</li>
-  <li>📖 Published book chapter with ESN Publications</li>
-  <li>🏁 Participated in RABSH and Pyexpo</li>
-</ul>
-<br/>
-
-
-<h2 align="center">Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ </h2>
-
-<!--STARTS_HERE_QUOTE_CARD-->
-
-<p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Steve%20Jobs&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do.&theme=dark&bg_color=161b22&author_color=00e5ff&accent_color=6a11cb">
-</p>
-<!--ENDS_HERE_QUOTE_CARD-->
-<h2 align="center">Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ</h2>
-
-<p align="center">
-  <img src="https://readme-daily-quotes.vercel.app/api?author=Steve%20Jobs&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do.&theme=dark&bg_color=161b22&author_color=00e5ff&accent_color=6a11cb" alt="Thought of the Day"/>
-</p>
-
-<h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝</h2>
-
-<p align="center">
-  <a href="mailto:YOUR_EMAIL@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://github.com/Sudharsana125" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/sudharsanak" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
-<!--Contact Section-->
 
