@@ -1,6 +1,6 @@
 <!--Banner-->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=HELLO%20WORLD&fontSize=60&fontColor=ffffff&fontAlignY=42&desc=Welcome%20to%20my%20Profile&descAlignY=62&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:c9184a,100:ff4d94&height=200&section=header&text=Hello,%20I'm%20Sudharsana&fontSize=45&fontColor=ffffff&fontAlignY=35&desc=Nice%20to%20meet%20you&descSize=20&descAlignY=55&animation=fadeIn"/>
 
 <!--Night Owl image-->
 
