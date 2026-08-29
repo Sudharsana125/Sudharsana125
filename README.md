@@ -1,166 +1,192 @@
-<!--Banner-->
+::: {align="center"}
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=HELLO%20WORLD&fontSize=60&fontColor=ffffff&fontAlignY=42&desc=Welcome%20to%20my%20Profile&descAlignY=62&descSize=20&animation=fadeIn" width="100%"/>
+<!-- Hero -->
 
-<!--Night Owl image-->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:7c3aed&height=230&section=header&text=SUDHARSANA%20K&fontSize=56&fontColor=ffffff&fontAlignY=40&desc=AI%20%26%20Data%20Science%20%7C%20Generative%20AI%20%7C%20AI%20Agents&descAlignY=62&descSize=18&animation=fadeIn" width="100%"/>{=html}
 
-<div>
-  <img align="right" width="35%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
-</div>
+<a href="https://github.com/Sudharsana125">{=html}
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=760&lines=Aspiring+AI+Engineer+%F0%9F%A4%96;Building+GenAI+Applications+%F0%9F%9A%80;RAG+%7C+LLMs+%7C+AI+Agents+%7C+Automation;Turning+ideas+into+working+AI+systems" alt="Typing introduction" />{=html}
+</a>{=html}
 
-<!--Header Name-->
+<br/>{=html}
 
-<img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> ɪ'ᴍ ꜱᴜᴅʜᴀʀꜱᴀɴᴀ!
+<a href="https://github.com/Sudharsana125">{=html}
+<img src="https://komarev.com/ghpvc/?username=Sudharsana125&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views"/>{=html}
+</a>{=html}  
+<a href="https://github.com/Sudharsana125?tab=followers">{=html}
+<img src="https://img.shields.io/github/followers/Sudharsana125?style=for-the-badge&logo=github&label=FOLLOWERS" alt="GitHub followers"/>{=html}
+</a>{=html}   <a href="https://github.com/Sudharsana125">{=html}
+<img src="https://img.shields.io/github/stars/Sudharsana125?style=for-the-badge&logo=github&label=STARS" alt="GitHub stars"/>{=html}
+</a>{=html}
+:::
 
-Aspiring AI Engineer • AI & Data Science Student
-<br/>
+👋 About Me
 
-<!--Start Intro-->
+AI & Data Science undergraduate focused on building practical
+Generative AI applications.
 
-<p align="left">I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbatore, building Generative AI systems — Retrieval-Augmented Generation, LLM orchestration, and AI Agents — and turning them into real, working applications.</p>
+I work with LLMs, RAG pipelines, AI agents, vector databases,
+automation, and API-based AI applications. I enjoy taking an idea from
+concept → architecture → implementation → working prototype.
 
-✨ Building intelligent systems, one project at a time
+🤖 Building: Intelligent Customer Support Chatbot
 
-🌱 Currently learning Agentic AI, Advanced RAG, and System Design for AI applications
+🧠 Exploring: Agentic AI, Advanced RAG & AI System Design
 
-🤖 Main project: an Intelligent Customer Support Chatbot powered by RAG (ChromaDB + Sentence Transformers + Streamlit + Gemini API)
+⚙️ Interested in: LLM applications, AI automation & intelligent
+workflows
 
-📖 Published a book chapter with ESN Publications
+📖 Published: Book chapter with ESN Publications
 
-🏁 Presented and competed at hackathons/conferences including RABSH and Pyexpo
+🏁 Participated in: RABSH & Pyexpo
 
-💻 Visit my GitHub for more of my work
+💼 Experience: Benchmarrk & CodeAlpha internships
 
-<!--End Intro-->
+⚡ Tech Stack
 
-<!--Profile Count Badge-->
+::: {align="center"}
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Sudharsana125&label=Profile%20views&color=6a11cb&style=for-the-badge" alt="Sudharsana125" style="padding-right:20px;" />
-</p>
+Languages
 
-<!--Tech Stack Section-->
+<img src="https://skillicons.dev/icons?i=python,java,mysql" />{=html}
 
-<h2 align="center">⚡ Tᴇᴄʜ Sᴛᴀᴄᴋ & Sᴋɪʟʟs ⚡</h2>
+AI • ML • GenAI
 
-<p align="center">
-  <img src="./Skills_Animation_Dark.gif" alt="Animated Tech Stack and Skills" width="100%"/>
-</p>
+<img src="https://skillicons.dev/icons?i=tensorflow,sklearn" />{=html}
 
-<p align="center">
-  <em>Python • Java • SQL • Machine Learning • Generative AI • LLMs • RAG • Agentic AI • AI Agents • NLP • AI Automation • LangChain • CrewAI • Flowise • n8n • Pinecone • ChromaDB • FastAPI • Vector Embeddings • Pandas • NumPy • scikit-learn • TensorFlow • Keras • Matplotlib • Power BI • Excel • Tableau • Git • GitHub • Jupyter Notebook • Google Colab • VS Code</em>
-</p>
+<br/>{=html}
 
-<h3 align="left">Currently Learning</h3>
-<ul align="left">
-  <li>Agentic AI and multi-agent orchestration</li>
-  <li>Advanced RAG architectures</li>
-  <li>System design for production-grade AI applications</li>
-</ul>
+<img src="https://img.shields.io/badge/Generative%20AI-7C3AED?style=for-the-badge&logo=openai&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/LLMs-312E81?style=for-the-badge&logo=google&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/RAG-4F46E5?style=for-the-badge&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/Agentic%20AI-6D28D9?style=for-the-badge&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/NLP-4338CA?style=for-the-badge&logoColor=white"/>{=html}
 
-<h3 align="left">Recent Highlights</h3>
-<ul align="left">
-  <li>🏢 Internship at Benchmarrk (offline, June–July 2026)</li>
-  <li>💻 Internship at CodeAlpha (virtual, February–March 2026)</li>
-  <li>📖 Published book chapter with ESN Publications</li>
-  <li>🏁 Participated in RABSH and Pyexpo</li>
-</ul>
-<br/>
+Frameworks • Tools • Databases
 
-<!--Trophies Section-->
+<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,fastapi" />{=html}
 
-<h2 align="center">🏆 Gɪᴛʜᴜʙ Tʀᴏᴘʜɪᴇs 🏆</h2>
-<p align="center">
-  <a href="https://github.com/Sudharsana125">
-    <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=Sudharsana125&no-bg=true&row=2&column=6&margin-w=20&margin-h=20&theme=algolia"/>
-  </a>
-</p>
-<br/>
+<br/>{=html}
 
-<!--Github stats Table-->
+<img src="https://img.shields.io/badge/LangChain-1F2937?style=for-the-badge&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/CrewAI-111827?style=for-the-badge&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/Flowise-0EA5E9?style=for-the-badge&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/Pinecone-0F766E?style=for-the-badge&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/ChromaDB-F59E0B?style=for-the-badge&logoColor=white"/>{=html}
 
-<h2 align="center">📊 Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</h2>
+<br/>{=html}
 
-<table width="100%">
-  <tr>
-    <td width="50%">
-      <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://github-readme-stats.vercel.app/api?username=Sudharsana125&count_private=true&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center"><strong>Sᴛʀᴇᴀᴋ Sᴛᴀᴛs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://streak-stats.demolab.com?user=Sudharsana125&theme=tokyonight&hide_border=true" alt="Streak Stats" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center"><strong>Fᴇᴀᴛᴜʀᴇᴅ Pʀᴏᴊᴇᴄᴛ</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125/intelligent-customer-support-chatbot">
-          <img align="center" width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Sudharsana125&repo=intelligent-customer-support-chatbot&theme=tokyonight&show_owner=true" alt="Featured Project" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center"><strong>Tᴏᴘ Lᴀɴɢᴜᴀɢᴇs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudharsana125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-        </a>
-      </p>
-    </td>
-  </tr>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>{=html}
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827"/>{=html}
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>{=html}
+:::
+
+🚀 Featured Project
+
+::: {align="center"}
+<a href="https://github.com/Sudharsana125/intelligent-customer-support-chatbot">{=html}
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Sudharsana125&repo=intelligent-customer-support-chatbot&theme=tokyonight&hide_border=true" alt="Intelligent Customer Support Chatbot"/>{=html}
+</a>{=html}
+:::
+
+Intelligent Customer Support Chatbot
+
+A context-aware customer-support application built around a
+Retrieval-Augmented Generation workflow, designed to retrieve
+relevant knowledge and generate grounded responses.
+
+Core stack: Python · RAG · ChromaDB · Sentence Transformers
+· Streamlit · Gemini API
+
+🧭 Currently Learning
+
+<table align="center">
+
+<tr>
+
+<td align="center" width="33%">
+
+🤖
+
+Agentic AI
+
+Multi-agent workflows & orchestration
+
+</td>
+
+<td align="center" width="33%">
+
+🧠
+
+Advanced RAG
+
+Better retrieval & context pipelines
+
+</td>
+
+<td align="center" width="33%">
+
+🏗️
+
+AI System Design
+
+Production-ready AI architecture
+
+</td>
+
+</tr>
+
 </table>
-<br/>
 
-<!--Contribution Graph-->
+📊 GitHub Analytics
 
-<h2 align="center">📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</h2>
-<div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudharsana125&theme=tokyo-night&hide_border=true">
-</div>
+::: {align="center"}
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Sudharsana125&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats"/>{=html}
+<img width="49%" src="https://streak-stats.demolab.com?user=Sudharsana125&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>{=html}
 
-<!--Dynamic Quote card updates daily via GitHub Actions-->
+<br/>{=html}<br/>{=html}
 
-<h2 align="center">🌟 Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ 🌟</h2>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudharsana125&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>{=html}
+<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sudharsana125&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph"/>{=html}
+:::
 
-<!--STARTS_HERE_QUOTE_CARD-->
+🏆 GitHub Trophies
 
-<p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Steve%20Jobs&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do.&theme=dark&bg_color=161b22&author_color=00e5ff&accent_color=6a11cb">
-</p>
-<!--ENDS_HERE_QUOTE_CARD-->
+::: {align="center"}
+<img src="https://github-profile-trophy.vercel.app/?username=Sudharsana125&theme=algolia&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub Trophies"/>{=html}
+:::
 
-<!--Contact Section-->
+💡 What I Like Building
 
-<h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝</h2>
-<div align="center">
+::: {align="center"}
+🧠 RAG Systems   🤖 AI Agents   🔗 LLM Applications
+⚡ AI Automation   📊 Data Applications   🚀 AI APIs
+:::
 
-<a href="mailto:[YOUR_EMAIL@example.com]" target="_blank">
-<img src="./gmail.png" width="50" height="50" alt="Email" style="margin-bottom: 5px;" />
-</a>
+📈 Contribution Activity
 
-<a href="https://github.com/Sudharsana125" target="_blank">
-<img src="./github.png" width="50" height="50" alt="Sudharsana125" style="margin-bottom: 5px;" />
-</a>
+::: {align="center"}
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudharsana125&custom_title=Sudharsana's%20Contribution%20Journey&hide_border=true&area=true&theme=tokyo-night" width="95%" alt="Contribution activity"/>{=html}
+:::
 
-<a href="https://www.linkedin.com/in/sudharsanak" target="_blank">
-<img src="./linkedin.png" width="50" height="50" alt="LinkedIn" style="margin-bottom: 5px;" />
-</a>
+🤝 Let's Connect
 
-</div>
-<br/>
+::: {align="center"}
+<a href="mailto:YOUR_EMAIL@example.com">{=html}
+<img src="https://img.shields.io/badge/Email-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>{=html}
+</a>{=html}   <a href="https://github.com/Sudharsana125">{=html}
+<img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>{=html}
+</a>{=html}  
+<a href="https://www.linkedin.com/in/sudharsanak">{=html}
+<img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>{=html}
+</a>{=html}
 
-<!--Footer-->
+<br/>{=html}<br/>{=html}
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=65&section=footer"/>
-</p>
+✨ Building intelligent systems, one project at a time.
+
+:::
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:312e81,100:0f172a&height=100&section=footer" width="100%"/>{=html}
