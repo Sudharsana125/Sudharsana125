@@ -19,9 +19,7 @@ I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbat
 🤖 Main project: an Intelligent Customer Support Chatbot powered by RAG (ChromaDB + Sentence Transformers + Streamlit + Gemini API)  
 📖 Published a book chapter with ESN Publications  
 🏆 Presented and competed at hackathons/conferences including RABSH and Pyexpo  
-💻 Visit my GitHub for more of my work  
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=8B5CF6&center=false&vCenter=true&width=500&lines=Aspiring+AI+Engineer;AI+%26+Data+Science+Student" alt="Typing SVG"/>
+💻 Visit my GitHub for more of my work 
 
 <!--Profile Count Badge-->
 
