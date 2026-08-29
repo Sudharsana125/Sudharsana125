@@ -16,7 +16,6 @@ I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbat
 
 ✨ Building intelligent systems, one project at a time  
 🌱 Currently learning Agentic AI, Advanced RAG, and System Design for AI applications  
-🤖 Main project: an Intelligent Customer Support Chatbot powered by RAG (ChromaDB + Sentence Transformers + Streamlit + Gemini API)  
 📖 Published a book chapter with ESN Publications  
 🏆 Presented and competed at hackathons/conferences including RABSH and Pyexpo  
 💻 Visit my GitHub for more of my work  
