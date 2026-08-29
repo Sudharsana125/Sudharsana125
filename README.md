@@ -67,68 +67,6 @@ Aspiring AI Engineer • AI & Data Science Student
 </ul>
 <br/>
 
-<!--Trophies Section-->
-
-<h2 align="center">🏆 Gɪᴛʜᴜʙ Tʀᴏᴘʜɪᴇs 🏆</h2>
-<p align="center">
-  <a href="https://github.com/Sudharsana125">
-    <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=Sudharsana125&no-bg=true&row=2&column=6&margin-w=20&margin-h=20&theme=algolia"/>
-  </a>
-</p>
-<br/>
-
-<!--Github stats Table-->
-
-<h2 align="center">📊 Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</h2>
-
-<table width="100%">
-  <tr>
-    <td width="50%">
-      <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://github-readme-stats.vercel.app/api?username=Sudharsana125&count_private=true&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center"><strong>Sᴛʀᴇᴀᴋ Sᴛᴀᴛs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://streak-stats.demolab.com?user=Sudharsana125&theme=tokyonight&hide_border=true" alt="Streak Stats" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center"><strong>Fᴇᴀᴛᴜʀᴇᴅ Pʀᴏᴊᴇᴄᴛ</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125/intelligent-customer-support-chatbot">
-          <img align="center" width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Sudharsana125&repo=intelligent-customer-support-chatbot&theme=tokyonight&show_owner=true" alt="Featured Project" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center"><strong>Tᴏᴘ Lᴀɴɢᴜᴀɢᴇs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudharsana125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
-<br/>
-
-<!--Contribution Graph-->
-
-<h2 align="center">📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</h2>
-<div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudharsana125&theme=tokyo-night&hide_border=true">
-</div>
-
-<!--Dynamic Quote card updates daily via GitHub Actions-->
 
 <h2 align="center">🌟 Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ 🌟</h2>
 
