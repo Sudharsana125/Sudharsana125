@@ -23,33 +23,6 @@ I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbat
 
 <img src="https://komarev.com/ghpvc/?username=Sudharsana125&label=PROFILE+VIEWS&color=6a11cb&style=for-the-badge"/>
 
-<h2 align="center">🛠️ Tech Stack</h2>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&lines=AI+Agents+%7C+RAG+%7C+LLMs+%7C+Generative+AI;Python+%7C+TensorFlow+%7C+PyTorch+%7C+ChromaDB;SQL+%7C+Tableau+%7C+Power+BI+%7C+Excel" alt="Typing SVG"/>
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,java,tensorflow,pytorch,git,github,vscode,mysql,anaconda&theme=dark" />
-</p>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=tableau,powerbi,matlab&theme=dark" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-AI%20Agents-000000?style=for-the-badge&logo=robotframework&logoColor=f5c518&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/-RAG-000000?style=for-the-badge&labelColor=0d1117&color=60a5fa"/>
-  <img src="https://img.shields.io/badge/-LLMs-000000?style=for-the-badge&labelColor=0d1117&color=34d399"/>
-  <img src="https://img.shields.io/badge/-Generative%20AI-000000?style=for-the-badge&labelColor=0d1117&color=a855f7"/>
-  <img src="https://img.shields.io/badge/-Agentic%20AI-000000?style=for-the-badge&labelColor=0d1117&color=f472b6"/>
-  <img src="https://img.shields.io/badge/-ChromaDB-000000?style=for-the-badge&labelColor=0d1117&color=34d399"/>
-  <img src="https://img.shields.io/badge/-Pinecone-000000?style=for-the-badge&labelColor=0d1117&color=4ade80"/>
-  <img src="https://img.shields.io/badge/-Vector%20Embeddings-000000?style=for-the-badge&labelColor=0d1117&color=7dd3fc"/>
-  <img src="https://img.shields.io/badge/-NLP-000000?style=for-the-badge&labelColor=0d1117&color=38bdf8"/>
-</p>
-<!--Tech Stack Section-->
-
 <h2 align="center">⚡ Tᴇᴄʜ Sᴛᴀᴄᴋ & Sᴋɪʟʟs ⚡</h2>
 
 <p align="center">
