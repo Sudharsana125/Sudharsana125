@@ -39,17 +39,15 @@ I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbat
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d1b3d,100:e91e8c&height=100&section=header"/>
 
-<h2>✨ Thought of the Day ✨</h2>
+<h2>(●'◡'●)Thought of the Day </h2>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=FFD700&center=true&vCenter=true&width=500&lines=A+new+quote+every+day...;Stay+curious.+Keep+building." alt="Typing SVG"/>
 
 <br/><br/>
-
 <img src="https://readme-daily-quotes.vercel.app/api?author=Simon%20Sinek&quote=If%20no%20one%20ever%20broke%20the%20rules%2C%20then%20we%27d%20never%20advance.&theme=dark&bg_color=2d1b3d&author_color=ffd700&accent_color=e91e8c" alt="Thought of the Day"/>
-
 <br/><br/>
 
-<h2>🤝 Connect With Me 🤝</h2>
+<h2>🤝 Connect With Me </h2>
 
 <p>
   <a href="mailto:sudharsanak13@gmail.com" target="_blank">
