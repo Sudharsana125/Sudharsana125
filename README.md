@@ -17,15 +17,17 @@ Aspiring AI Engineer • AI & Data Science Student
 
 <!--Start Intro-->
 
-<p align="left">I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, building Generative AI systems — Retrieval-Augmented Generation, LLM orchestration, and AI Agents — and turning them into real, working applications.</p>
+<p align="left">I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbatore, building Generative AI systems — Retrieval-Augmented Generation, LLM orchestration, and AI Agents — and turning them into real, working applications.</p>
 
 ✨ Building intelligent systems, one project at a time
 
 🌱 Currently learning Agentic AI, Advanced RAG, and System Design for AI applications
 
-🤖 Main project: an Intelligent Customer Support Chatbot powered by RAG
+🤖 Main project: an Intelligent Customer Support Chatbot powered by RAG (ChromaDB + Sentence Transformers + Streamlit + Gemini API)
 
 📖 Published a book chapter with ESN Publications
+
+🏁 Presented and competed at hackathons/conferences including RABSH and Pyexpo
 
 💻 Visit my GitHub for more of my work
 
@@ -46,7 +48,7 @@ Aspiring AI Engineer • AI & Data Science Student
 </p>
 
 <p align="center">
-  <em>My skills and technologies — shown as an interactive animated tech stack.</em>
+  <em>Python • Java • SQL • Machine Learning • Generative AI • LLMs • RAG • Agentic AI • AI Agents • NLP • AI Automation • LangChain • CrewAI • Flowise • n8n • Pinecone • ChromaDB • FastAPI • Vector Embeddings • Pandas • NumPy • scikit-learn • TensorFlow • Keras • Matplotlib • Power BI • Excel • Tableau • Git • GitHub • Jupyter Notebook • Google Colab • VS Code</em>
 </p>
 
 <h3 align="left">Currently Learning</h3>
@@ -56,11 +58,12 @@ Aspiring AI Engineer • AI & Data Science Student
   <li>System design for production-grade AI applications</li>
 </ul>
 
-<h3 align="left">Latest Blog Posts</h3>
+<h3 align="left">Recent Highlights</h3>
 <ul align="left">
-  <li><a href="[YOUR_BLOG_POST_URL_1]">[Your blog post title 1]</a></li>
-  <li><a href="[YOUR_BLOG_POST_URL_2]">[Your blog post title 2]</a></li>
-  <li><a href="[YOUR_BLOG_POST_URL_3]">[Your blog post title 3]</a></li>
+  <li>🏢 Internship at Benchmarrk (offline, June–July 2026)</li>
+  <li>💻 Internship at CodeAlpha (virtual, February–March 2026)</li>
+  <li>📖 Published book chapter with ESN Publications</li>
+  <li>🏁 Participated in RABSH and Pyexpo</li>
 </ul>
 <br/>
 
@@ -151,18 +154,6 @@ Aspiring AI Engineer • AI & Data Science Student
 
 <a href="https://www.linkedin.com/in/sudharsanak" target="_blank">
 <img src="./linkedin.png" width="50" height="50" alt="LinkedIn" style="margin-bottom: 5px;" />
-</a>
-
-<a href="[YOUR_TWITTER_URL]" target="_blank">
-<img src="./twitter.png" width="50" height="50" alt="Twitter" style="margin-bottom: 5px;" />
-</a>
-
-<a href="[YOUR_INSTAGRAM_URL]" target="_blank">
-<img src="./instagram.png" width="50" height="50" alt="Instagram" style="margin-bottom: 5px;" />
-</a>
-
-<a href="[YOUR_DEVTO_URL]" target="_blank">
-<img src="./dev_to.png" width="50" height="50" alt="dev.to" style="margin-bottom: 5px;" />
 </a>
 
 </div>
