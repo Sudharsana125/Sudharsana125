@@ -1,166 +1,213 @@
-<!--Banner-->
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,100:2575fc&height=220&section=header&text=HELLO%20WORLD&fontSize=60&fontColor=ffffff&fontAlignY=42&desc=Welcome%20to%20my%20Profile&descAlignY=62&descSize=20&animation=fadeIn" width="100%"/>
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         HERO SECTION                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-<!--Night Owl image-->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&section=header&text=SUDHARSANA%20K&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=AI%20%26%20Data%20Science%20%7C%20Generative%20AI%20%7C%20AI%20Agents&descAlignY=64&descSize=18&color=gradient" width="100%"/>
 
-<div>
-  <img align="right" width="35%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=900&color=A78BFA&center=true&vCenter=true&width=760&lines=Aspiring+AI+Engineer+%F0%9F%A4%96;Building+Generative+AI+Applications;RAG+%7C+LLMs+%7C+AI+Agents+%7C+Automation;Turning+ideas+into+working+AI+systems" alt="Typing animation"/>
+
+<br>
+
+<a href="https://github.com/Sudharsana125">
+<img src="https://komarev.com/ghpvc/?username=Sudharsana125&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile Views"/>
+</a>
+
+<a href="https://github.com/Sudharsana125?tab=followers">
+<img src="https://img.shields.io/github/followers/Sudharsana125?style=for-the-badge&logo=github&color=111827&label=FOLLOWERS" alt="Followers"/>
+</a>
+
+<a href="https://github.com/Sudharsana125">
+<img src="https://img.shields.io/github/stars/Sudharsana125?style=for-the-badge&logo=github&color=111827&label=STARS" alt="Stars"/>
+</a>
+
+<br><br>
+
+<a href="https://github.com/Sudharsana125">
+<img src="https://img.shields.io/badge/AI%20ENGINEER-IN%20PROGRESS-7C3AED?style=for-the-badge&logo=robotframework&logoColor=white" alt="AI Engineer"/>
+</a>
+
 </div>
 
-<!--Header Name-->
+---
 
-<img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> ɪ'ᴍ ꜱᴜᴅʜᴀʀꜱᴀɴᴀ!
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         ABOUT ME                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-Aspiring AI Engineer • AI & Data Science Student
-<br/>
+## 👋 About Me
 
-<!--Start Intro-->
+<img align="right" width="300" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png" alt="Night Owl"/>
 
-<p align="left">I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbatore, building Generative AI systems — Retrieval-Augmented Generation, LLM orchestration, and AI Agents — and turning them into real, working applications.</p>
+Hi! I'm **Sudharsana**, an **AI & Data Science undergraduate** passionate about building practical and intelligent AI applications.
 
-✨ Building intelligent systems, one project at a time
+I work mainly with **Generative AI, LLMs, RAG, AI Agents, vector databases and automation**.
 
-🌱 Currently learning Agentic AI, Advanced RAG, and System Design for AI applications
+I enjoy taking an idea from:
 
-🤖 Main project: an Intelligent Customer Support Chatbot powered by RAG (ChromaDB + Sentence Transformers + Streamlit + Gemini API)
+**💡 Idea → 🧠 Architecture → 💻 Development → 🚀 Working Application**
 
-📖 Published a book chapter with ESN Publications
+### What I'm focused on
 
-🏁 Presented and competed at hackathons/conferences including RABSH and Pyexpo
+- 🤖 Generative AI & LLM applications
+- 🔎 Retrieval-Augmented Generation
+- 🧠 AI Agents & Agentic AI
+- 🔗 LLM orchestration
+- ⚡ AI automation
+- 🏗️ AI application system design
+- 📊 Data & analytics
 
-💻 Visit my GitHub for more of my work
+<br clear="right"/>
 
-<!--End Intro-->
+---
 
-<!--Profile Count Badge-->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         CURRENT FOCUS                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Sudharsana125&label=Profile%20views&color=6a11cb&style=for-the-badge" alt="Sudharsana125" style="padding-right:20px;" />
-</p>
+## 🧭 Currently Learning
 
-<!--Tech Stack Section-->
+<div align="center">
 
-<h2 align="center">⚡ Tᴇᴄʜ Sᴛᴀᴄᴋ & Sᴋɪʟʟs ⚡</h2>
+<table>
+<tr>
 
-<p align="center">
-  <img src="./Skills_Animation_Dark.gif" alt="Animated Tech Stack and Skills" width="100%"/>
-</p>
+<td width="33%" align="center">
 
-<p align="center">
-  <em>Python • Java • SQL • Machine Learning • Generative AI • LLMs • RAG • Agentic AI • AI Agents • NLP • AI Automation • LangChain • CrewAI • Flowise • n8n • Pinecone • ChromaDB • FastAPI • Vector Embeddings • Pandas • NumPy • scikit-learn • TensorFlow • Keras • Matplotlib • Power BI • Excel • Tableau • Git • GitHub • Jupyter Notebook • Google Colab • VS Code</em>
-</p>
+<img src="https://img.icons8.com/fluency/96/bot.png" width="55"/>
 
-<h3 align="left">Currently Learning</h3>
-<ul align="left">
-  <li>Agentic AI and multi-agent orchestration</li>
-  <li>Advanced RAG architectures</li>
-  <li>System design for production-grade AI applications</li>
-</ul>
+### 🤖 Agentic AI
 
-<h3 align="left">Recent Highlights</h3>
-<ul align="left">
-  <li>🏢 Internship at Benchmarrk (offline, June–July 2026)</li>
-  <li>💻 Internship at CodeAlpha (virtual, February–March 2026)</li>
-  <li>📖 Published book chapter with ESN Publications</li>
-  <li>🏁 Participated in RABSH and Pyexpo</li>
-</ul>
-<br/>
+Exploring autonomous AI workflows, AI agents and multi-agent orchestration.
 
-<!--Trophies Section-->
+</td>
 
-<h2 align="center">🏆 Gɪᴛʜᴜʙ Tʀᴏᴘʜɪᴇs 🏆</h2>
-<p align="center">
-  <a href="https://github.com/Sudharsana125">
-    <img alt="GitHub Trophies" src="https://github-profile-trophy.vercel.app/?username=Sudharsana125&no-bg=true&row=2&column=6&margin-w=20&margin-h=20&theme=algolia"/>
-  </a>
-</p>
-<br/>
+<td width="33%" align="center">
 
-<!--Github stats Table-->
+<img src="https://img.icons8.com/fluency/96/search.png" width="55"/>
 
-<h2 align="center">📊 Gɪᴛʜᴜʙ Sᴛᴀᴛs 📊</h2>
+### 🔎 Advanced RAG
 
-<table width="100%">
-  <tr>
-    <td width="50%">
-      <h3 align="center"><strong>Gɪᴛʜᴜʙ Sᴛᴀᴛs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://github-readme-stats.vercel.app/api?username=Sudharsana125&count_private=true&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center"><strong>Sᴛʀᴇᴀᴋ Sᴛᴀᴛs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://streak-stats.demolab.com?user=Sudharsana125&theme=tokyonight&hide_border=true" alt="Streak Stats" />
-        </a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center"><strong>Fᴇᴀᴛᴜʀᴇᴅ Pʀᴏᴊᴇᴄᴛ</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125/intelligent-customer-support-chatbot">
-          <img align="center" width="470" src="https://github-readme-stats.vercel.app/api/pin/?username=Sudharsana125&repo=intelligent-customer-support-chatbot&theme=tokyonight&show_owner=true" alt="Featured Project" />
-        </a>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center"><strong>Tᴏᴘ Lᴀɴɢᴜᴀɢᴇs</strong></h3>
-      <p align="center">
-        <a href="https://github.com/Sudharsana125">
-          <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sudharsana125&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-        </a>
-      </p>
-    </td>
-  </tr>
+Improving retrieval, embeddings, context management and knowledge pipelines.
+
+</td>
+
+<td width="33%" align="center">
+
+<img src="https://img.icons8.com/fluency/96/system-task.png" width="55"/>
+
+### 🏗️ AI System Design
+
+Learning how to design scalable and production-ready AI applications.
+
+</td>
+
+</tr>
 </table>
-<br/>
-
-<!--Contribution Graph-->
-
-<h2 align="center">📈 Cᴏɴᴛʀɪʙᴜᴛɪᴏɴ Gʀᴀᴘʜ 📈</h2>
-<div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudharsana125&theme=tokyo-night&hide_border=true">
-</div>
-
-<!--Dynamic Quote card updates daily via GitHub Actions-->
-
-<h2 align="center">🌟 Tʜᴏᴜɢʜᴛ ᴏғ ᴛʜᴇ Dᴀʏ 🌟</h2>
-
-<!--STARTS_HERE_QUOTE_CARD-->
-
-<p align="center">
-    <img src="https://readme-daily-quotes.vercel.app/api?author=Steve%20Jobs&quote=The%20only%20way%20to%20do%20great%20work%20is%20to%20love%20what%20you%20do.&theme=dark&bg_color=161b22&author_color=00e5ff&accent_color=6a11cb">
-</p>
-<!--ENDS_HERE_QUOTE_CARD-->
-
-<!--Contact Section-->
-
-<h2 align="center">🤝 Cᴏɴɴᴇᴄᴛ Wɪᴛʜ Mᴇ 🤝</h2>
-<div align="center">
-
-<a href="mailto:[YOUR_EMAIL@example.com]" target="_blank">
-<img src="./gmail.png" width="50" height="50" alt="Email" style="margin-bottom: 5px;" />
-</a>
-
-<a href="https://github.com/Sudharsana125" target="_blank">
-<img src="./github.png" width="50" height="50" alt="Sudharsana125" style="margin-bottom: 5px;" />
-</a>
-
-<a href="https://www.linkedin.com/in/sudharsanak" target="_blank">
-<img src="./linkedin.png" width="50" height="50" alt="LinkedIn" style="margin-bottom: 5px;" />
-</a>
 
 </div>
-<br/>
 
-<!--Footer-->
+---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=65&section=footer"/>
-</p>
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         TECH STACK                             -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+## ⚡ Tech Stack
+
+<div align="center">
+
+### 💻 Languages
+
+<img src="https://skillicons.dev/icons?i=python,java,mysql&perline=6" alt="Languages"/>
+
+<br><br>
+
+### 🧠 AI • ML • GenAI
+
+<img src="https://img.shields.io/badge/Machine%20Learning-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Generative%20AI-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLMs-4F46E5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RAG-6366F1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Agentic%20AI-6D28D9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Agents-5B21B6?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/NLP-4338CA?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Automation-312E81?style=for-the-badge"/>
+
+<br><br>
+
+### 🔧 Frameworks • Tools
+
+<img src="https://img.shields.io/badge/LangChain-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CrewAI-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Flowise-0EA5E9?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+
+<br><br>
+
+### 🗄️ Vector Databases • Data
+
+<img src="https://img.shields.io/badge/Pinecone-0F766E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ChromaDB-F59E0B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vector%20Embeddings-7C3AED?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+
+<br><br>
+
+### 📊 Data • Development
+
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827"/>
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter&perline=8" alt="Development Tools"/>
+
+</div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                       FEATURED PROJECT                         -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+## 🚀 Featured Project
+
+<div align="center">
+
+<a href="https://github.com/Sudharsana125/intelligent-customer-support-chatbot">
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Sudharsana125&repo=intelligent-customer-support-chatbot&theme=tokyonight&hide_border=true&show_owner=true" alt="Intelligent Customer Support Chatbot"/>
+
+</a>
+
+</div>
+
+### 🤖 Intelligent Customer Support Chatbot
+
+A context-aware customer-support application built using a **Retrieval-Augmented Generation pipeline**.
+
+The system retrieves relevant information from a knowledge base and uses that context to generate grounded responses.
+
+### 🔍 Key Features
+
+- 🔎 Knowledge retrieval using **ChromaDB**
+- 🧠 Semantic embeddings using **Sentence Transformers**
+- 💬 Context-aware response generation
+- 🤖 LLM-powered customer support
+- ⚡ Interactive application interface
+- 🔗 RAG-based architecture
+
+### 🛠️ Technology
+
+```text
+Python
+├── RAG
+├── ChromaDB
+├── Sentence Transformers
+├── Streamlit
+└── Gemini API
