@@ -12,7 +12,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=8B5CF6&center=false&vCenter=true&width=500&lines=Aspiring+AI+Engineer;AI+%26+Data+Science+Student" alt="Typing SVG"/>
 
-I'm an AI & Data Science undergraduate at KGiSL Institute of Technology, Coimbatore, building Generative AI systems — Retrieval-Augmented Generation, LLM orchestration, and AI Agents — and turning them into real, working applications.
+I'm a Computer Science and Business system undergraduate at KGiSL Institute of Technology, Coimbatore, building Generative AI systems — Retrieval-Augmented Generation, LLM orchestration, and AI Agents — and turning them into real, working applications.
 
 ✨ Building intelligent systems, one project at a time  
 🌱 Currently learning Agentic AI, Advanced RAG, and System Design for AI applications  
