@@ -33,27 +33,23 @@
 
 <br/>
 
-<!-- Tech Stack & Current Focus (2-Column Layout) -->
-<table border="0" cellpadding="0" cellspacing="6" width="100%">
-  <tr>
-    <td width="63%" align="center" valign="top">
-      <img src="./assets/tech_stack.svg" width="100%" alt="Tech Stack" />
-    </td>
-    <td width="37%" align="center" valign="top">
-      <img src="./assets/current_focus.svg" width="100%" alt="Current Focus" />
-    </td>
-  </tr>
-</table>
+<!-- Full-Width Tech Stack -->
+<img src="./assets/tech_stack.svg" width="100%" alt="Tech Stack" />
 
 <br/>
 
-<!-- Let's Connect & Terminal (2-Column Layout) -->
+<!-- Current Focus & Connect/Terminal (2-Column Layout) -->
 <table border="0" cellpadding="0" cellspacing="6" width="100%">
   <tr>
     <td width="48%" align="center" valign="top">
+      <img src="./assets/current_focus.svg" width="100%" alt="Current Focus" />
+    </td>
+    <td width="52%" align="center" valign="top">
+      <img src="./assets/terminal.svg" width="100%" alt="Open Terminal" />
+      <br/>
       <table border="0" cellpadding="0" cellspacing="0" width="100%">
         <tr>
-          <td colspan="3" align="left" style="padding-bottom: 10px;">
+          <td colspan="5" align="left" style="padding-bottom: 10px;">
             <img src="./assets/connect_header.svg" width="100%" alt="Let's Connect" />
           </td>
         </tr>
@@ -77,9 +73,6 @@
           </td>
         </tr>
       </table>
-    </td>
-    <td width="52%" align="center" valign="top">
-      <img src="./assets/terminal.svg" width="100%" alt="Open Terminal" />
     </td>
   </tr>
 </table>
