@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 370" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0a0f1d" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="titleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="70%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Isometric Layer Gradients -->
+    <linearGradient id="layerIdeas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="layerAgents" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="layerSystems" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0e7490" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="layerImpact" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#047857" stop-opacity="0.15" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowPurple" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="glowGreen" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="0.7" fill="#334155" fill-opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="996" height="366" rx="16" fill="url(#bgGrad)" stroke="url(#cardBorder)" stroke-width="1.5" />
+  <rect x="2" y="2" width="996" height="366" rx="16" fill="url(#gridPattern)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="820" cy="180" r="140" fill="#38bdf8" fill-opacity="0.08" filter="url(#glowCyan)" />
+  <circle cx="780" cy="100" r="120" fill="#a855f7" fill-opacity="0.08" filter="url(#glowPurple)" />
+  <circle cx="200" cy="150" r="180" fill="#1e1b4b" fill-opacity="0.3" filter="url(#glowPurple)" />
+
+  <!-- Top Terminal Bar -->
+  <g transform="translate(30, 32)">
+    <!-- Terminal Prompt -->
+    <text x="0" y="0" fill="#818cf8" font-size="12" font-weight="700" class="mono">&gt; SUDHARSANA@GITHUB:~$</text>
+    <text x="180" y="0" fill="#cbd5e1" font-size="12" font-weight="500" class="mono">Welcome!</text>
+
+    <!-- Right Header Tag -->
+    <text x="820" y="0" fill="#64748b" font-size="11" font-weight="600" text-anchor="end" class="mono">{"BUILD   LEARN   EXPLORE   IMPACT"}</text>
+    
+    <!-- GitHub Mark Mini Icon -->
+    <g transform="translate(835, -11) scale(0.65)">
+      <path fill="#94a3b8" fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+    </g>
+  </g>
+
+  <!-- Left Hero Content -->
+  <!-- Name -->
+  <g transform="translate(36, 115)">
+    <text x="0" y="0" font-size="44" font-weight="900" letter-spacing="1.5" fill="url(#titleGlow)" class="sans">
+      SUDHARSANA <tspan fill="#c084fc" filter="url(#glowPurple)">K</tspan>
+    </text>
+  </g>
+
+  <!-- Title Subtitle -->
+  <g transform="translate(38, 142)">
+    <text x="0" y="0" font-size="12" font-weight="700" letter-spacing="3.5" fill="#94a3b8" class="sans">
+      AI/ML ENGINEER  <tspan fill="#475569">|</tspan>  AGENTIC AI BUILDER
+    </text>
+  </g>
+
+  <!-- Tagline Flow -->
+  <g transform="translate(38, 185)" font-size="14" font-weight="800" letter-spacing="1.5" class="sans">
+    <text x="0" y="0" fill="#60a5fa">IDEAS</text>
+    <text x="56" y="0" fill="#475569">➔</text>
+    <text x="82" y="0" fill="#38bdf8">AGENTS</text>
+    <text x="156" y="0" fill="#475569">➔</text>
+    <text x="182" y="0" fill="#34d399">REAL</text>
+    <text x="230" y="0" fill="#2dd4bf" filter="url(#glowCyan)">IMPACT</text>
+  </g>
+
+  <!-- Quick Nav Pills with Vector Icons -->
+  <g transform="translate(38, 218)">
+    <!-- Projects Pill -->
+    <rect x="0" y="0" width="108" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+    <path d="M15 11 L20 11 L22 13 L27 13 C28 13 29 14 29 15 L29 23 C29 24 28 25 27 25 L15 25 C14 25 13 24 13 23 L13 13 C13 12 14 11 15 11 Z" fill="none" stroke="#facc15" stroke-width="1.4" />
+    <text x="35" y="22" font-size="12.5" font-weight="600" fill="#cbd5e1" class="sans">Projects</text>
+
+    <!-- Stack Pill -->
+    <rect x="118" y="0" width="98" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+    <text x="132" y="22" font-size="12.5" font-weight="700" fill="#818cf8" class="mono">&lt;/&gt;</text>
+    <text x="158" y="22" font-size="12.5" font-weight="600" fill="#cbd5e1" class="sans">Stack</text>
+
+    <!-- Now Pill -->
+    <rect x="226" y="0" width="92" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+    <path d="M243 11 L238 18 L242 18 L239 24 L246 16 L242 16 Z" fill="#38bdf8" />
+    <text x="254" y="22" font-size="12.5" font-weight="600" fill="#cbd5e1" class="sans">Now</text>
+
+    <!-- Connect Pill -->
+    <rect x="328" y="0" width="112" height="34" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="341" y="12" width="14" height="11" rx="2" fill="none" stroke="#22d3ee" stroke-width="1.2" />
+    <path d="M341 13 L348 18 L355 13" fill="none" stroke="#22d3ee" stroke-width="1.2" />
+    <text x="362" y="22" font-size="12.5" font-weight="600" fill="#cbd5e1" class="sans">Connect</text>
+  </g>
+
+  <!-- Quote -->
+  <g transform="translate(38, 286)">
+    <!-- Vertical Cyan Accent Bar -->
+    <line x1="0" y1="2" x2="0" y2="30" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" />
+    <text x="14" y="21" font-size="13" font-style="italic" fill="#94a3b8" class="sans">
+      "Building intelligent systems for a smarter, safer tomorrow."
+    </text>
+    <line x1="432" y1="8" x2="432" y2="25" stroke="#334155" stroke-width="1.5" />
+  </g>
+
+  <!-- RIGHT SIDE: 3D ISOMETRIC LAYERED STACK -->
+  <g transform="translate(560, 48)">
+
+    <!-- LAYER 1 (TOP): IDEAS (Purple Glow) -->
+    <g transform="translate(0, 0)">
+      <!-- Isometric Platform -->
+      <polygon points="120,40 220,10 120,-20 20,10" fill="url(#layerIdeas)" stroke="#c084fc" stroke-width="1.8" filter="url(#glowPurple)" />
+      <polygon points="20,10 120,40 120,48 20,18" fill="#7c3aed" fill-opacity="0.35" />
+      <polygon points="120,40 220,10 220,18 120,48" fill="#6d28d9" fill-opacity="0.2" />
+
+      <!-- Center Bulb Icon -->
+      <g transform="translate(108, -5) scale(1.1)">
+        <circle cx="10" cy="10" r="9" fill="#a855f7" fill-opacity="0.25" />
+        <path d="M10 3a5 5 0 00-3 9v2h6v-2a5 5 0 00-3-9z" fill="#f3e8ff" stroke="#e9d5ff" stroke-width="1" />
+        <line x1="8" y1="16" x2="12" y2="16" stroke="#e9d5ff" stroke-width="1" />
+      </g>
+
+      <!-- Label inside platform -->
+      <text x="148" y="16" fill="#e9d5ff" font-size="11" font-weight="800" letter-spacing="1" class="sans">IDEAS</text>
+
+      <!-- Connector to right -->
+      <line x1="220" y1="12" x2="255" y2="12" stroke="#a855f7" stroke-width="1" stroke-dasharray="2 2" />
+      <circle cx="255" cy="12" r="3" fill="#c084fc" />
+
+      <!-- Description Block -->
+      <text x="268" y="10" fill="#f3e8ff" font-size="11" font-weight="800" class="sans">IDEAS</text>
+      <text x="268" y="24" fill="#94a3b8" font-size="9.5" class="sans">Turn problems</text>
+      <text x="268" y="36" fill="#94a3b8" font-size="9.5" class="sans">into possibilities</text>
+    </g>
+
+    <!-- LAYER 2: AGENTS (Blue Glow) -->
+    <g transform="translate(0, 68)">
+      <!-- Isometric Platform -->
+      <polygon points="120,40 220,10 120,-20 20,10" fill="url(#layerAgents)" stroke="#38bdf8" stroke-width="1.8" filter="url(#glowCyan)" />
+      <polygon points="20,10 120,40 120,48 20,18" fill="#0284c7" fill-opacity="0.35" />
+      <polygon points="120,40 220,10 220,18 120,48" fill="#0369a1" fill-opacity="0.2" />
+
+      <!-- Center Robot Icon -->
+      <g transform="translate(108, -4) scale(1.1)">
+        <circle cx="10" cy="10" r="9" fill="#0284c7" fill-opacity="0.25" />
+        <rect x="5" y="6" width="10" height="8" rx="2" fill="#e0f2fe" stroke="#38bdf8" stroke-width="0.8" />
+        <circle cx="8" cy="10" r="1" fill="#0284c7" />
+        <circle cx="12" cy="10" r="1" fill="#0284c7" />
+        <line x1="10" y1="4" x2="10" y2="6" stroke="#38bdf8" stroke-width="1" />
+      </g>
+
+      <!-- Label inside platform -->
+      <text x="148" y="16" fill="#bae6fd" font-size="11" font-weight="800" letter-spacing="1" class="sans">AGENTS</text>
+
+      <!-- Connector to right -->
+      <line x1="220" y1="12" x2="255" y2="12" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2 2" />
+      <circle cx="255" cy="12" r="3" fill="#38bdf8" />
+
+      <!-- Description Block -->
+      <text x="268" y="10" fill="#e0f2fe" font-size="11" font-weight="800" class="sans">AGENTS</text>
+      <text x="268" y="24" fill="#94a3b8" font-size="9.5" class="sans">Collaborative</text>
+      <text x="268" y="36" fill="#94a3b8" font-size="9.5" class="sans">AI systems</text>
+    </g>
+
+    <!-- LAYER 3: SYSTEMS (Cyan Glow) -->
+    <g transform="translate(0, 136)">
+      <!-- Isometric Platform -->
+      <polygon points="120,40 220,10 120,-20 20,10" fill="url(#layerSystems)" stroke="#22d3ee" stroke-width="1.8" filter="url(#glowCyan)" />
+      <polygon points="20,10 120,40 120,48 20,18" fill="#0891b2" fill-opacity="0.35" />
+      <polygon points="120,40 220,10 220,18 120,48" fill="#0e7490" fill-opacity="0.2" />
+
+      <!-- Center Gears Icon -->
+      <g transform="translate(108, -5) scale(1.1)">
+        <circle cx="10" cy="10" r="9" fill="#06b6d4" fill-opacity="0.25" />
+        <circle cx="10" cy="10" r="4" fill="none" stroke="#cffafe" stroke-width="2" />
+        <circle cx="10" cy="10" r="1.5" fill="#0891b2" />
+      </g>
+
+      <!-- Label inside platform -->
+      <text x="148" y="16" fill="#cffafe" font-size="11" font-weight="800" letter-spacing="1" class="sans">SYSTEMS</text>
+
+      <!-- Connector to right -->
+      <line x1="220" y1="12" x2="255" y2="12" stroke="#22d3ee" stroke-width="1" stroke-dasharray="2 2" />
+      <circle cx="255" cy="12" r="3" fill="#22d3ee" />
+
+      <!-- Description Block -->
+      <text x="268" y="10" fill="#cffafe" font-size="11" font-weight="800" class="sans">SYSTEMS</text>
+      <text x="268" y="24" fill="#94a3b8" font-size="9.5" class="sans">Real-world</text>
+      <text x="268" y="36" fill="#94a3b8" font-size="9.5" class="sans">applications</text>
+    </g>
+
+    <!-- LAYER 4 (BOTTOM): IMPACT (Emerald Glow) -->
+    <g transform="translate(0, 204)">
+      <!-- Isometric Platform -->
+      <polygon points="120,40 220,10 120,-20 20,10" fill="url(#layerImpact)" stroke="#34d399" stroke-width="1.8" filter="url(#glowGreen)" />
+      <polygon points="20,10 120,40 120,48 20,18" fill="#059669" fill-opacity="0.35" />
+      <polygon points="120,40 220,10 220,18 120,48" fill="#047857" fill-opacity="0.2" />
+
+      <!-- Center Globe Icon -->
+      <g transform="translate(108, -5) scale(1.1)">
+        <circle cx="10" cy="10" r="9" fill="#10b981" fill-opacity="0.25" />
+        <circle cx="10" cy="10" r="5" fill="none" stroke="#d1fae5" stroke-width="1.2" />
+        <ellipse cx="10" cy="10" rx="2.5" ry="5" fill="none" stroke="#d1fae5" stroke-width="0.8" />
+        <line x1="5" y1="10" x2="15" y2="10" stroke="#d1fae5" stroke-width="0.8" />
+      </g>
+
+      <!-- Label inside platform -->
+      <text x="148" y="16" fill="#d1fae5" font-size="11" font-weight="800" letter-spacing="1" class="sans">IMPACT</text>
+
+      <!-- Connector to right -->
+      <line x1="220" y1="12" x2="255" y2="12" stroke="#34d399" stroke-width="1" stroke-dasharray="2 2" />
+      <circle cx="255" cy="12" r="3" fill="#34d399" />
+
+      <!-- Description Block -->
+      <text x="268" y="10" fill="#d1fae5" font-size="11" font-weight="800" class="sans">IMPACT</text>
+      <text x="268" y="24" fill="#94a3b8" font-size="9.5" class="sans">Safer, Smarter</text>
+      <text x="268" y="36" fill="#94a3b8" font-size="9.5" class="sans">Communities</text>
+    </g>
+
+  </g>
+</svg>

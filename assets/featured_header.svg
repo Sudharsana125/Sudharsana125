@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 46" width="100%" height="100%">
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  </style>
+
+  <!-- Left: Folder icon + Title -->
+  <g transform="translate(4, 30)">
+    <!-- Folder Icon -->
+    <path d="M0 -15 C0 -16.5 1.2 -17.5 2.5 -17.5 L9 -17.5 L12 -14 L21 -14 C22.5 -14 23.5 -12.8 23.5 -11.5 L23.5 1 C23.5 2.5 22.5 3.5 21 3.5 L2.5 3.5 C1.2 3.5 0 2.5 0 1 Z" fill="#0f172a" stroke="#818cf8" stroke-width="1.8" />
+    <text x="34" y="-1" font-size="20" font-weight="800" fill="#f8fafc" class="sans">Featured Projects</text>
+  </g>
+
+  <!-- Right: View all repositories link -->
+  <g transform="translate(996, 30)">
+    <text x="0" y="-1" font-size="13" font-weight="600" fill="#38bdf8" text-anchor="end" class="sans">View all repositories ➔</text>
+  </g>
+</svg>

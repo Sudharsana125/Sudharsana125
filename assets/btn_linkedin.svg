@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 48" width="100%" height="100%">
+  <defs>
+    <linearGradient id="btnBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#0b1324" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="138" height="46" rx="8" fill="url(#btnBg)" stroke="#1e3a8a" stroke-width="1.2" />
+  <rect x="14" y="13" width="22" height="22" rx="4" fill="#0a66c2" />
+  <text x="25" y="29" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">in</text>
+  <text x="76" y="30" font-size="13" font-weight="600" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">LinkedIn</text>
+</svg>

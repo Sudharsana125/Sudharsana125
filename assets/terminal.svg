@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c1222" />
+      <stop offset="100%" stop-color="#070b16" />
+    </linearGradient>
+
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="516" height="136" rx="14" fill="url(#termBg)" stroke="url(#termBorder)" stroke-width="1.5" />
+
+  <!-- Terminal Header Bar -->
+  <g transform="translate(20, 26)">
+    <!-- Terminal Icon box -->
+    <rect x="0" y="-12" width="18" height="18" rx="4" fill="#581c87" fill-opacity="0.4" stroke="#a855f7" stroke-width="1" />
+    <path d="M6 -5 L10 -3 L6 -1" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <text x="26" y="0" font-size="13" font-weight="700" fill="#e2e8f0" class="sans">Open Terminal</text>
+
+    <!-- Chevron Down -->
+    <path d="M472 -4 L478 2 L484 -4" fill="none" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Terminal Content Lines -->
+  <g transform="translate(30, 56)" font-size="12" font-weight="500" class="mono">
+    <!-- Line 1: whoami -->
+    <text x="0" y="0" fill="#a855f7">$</text>
+    <text x="14" y="0" fill="#94a3b8">whoami</text>
+    <text x="100" y="0" fill="#64748b">→</text>
+    <text x="124" y="0" fill="#f8fafc" font-weight="600">Sudharsana K</text>
+
+    <!-- Line 2: domain -->
+    <text x="0" y="19" fill="#a855f7">$</text>
+    <text x="14" y="19" fill="#94a3b8">domain</text>
+    <text x="100" y="19" fill="#64748b">→</text>
+    <text x="124" y="19" fill="#38bdf8" font-weight="600">AI / ML / Agentic AI</text>
+
+    <!-- Line 3: mission -->
+    <text x="0" y="38" fill="#a855f7">$</text>
+    <text x="14" y="38" fill="#94a3b8">mission</text>
+    <text x="100" y="38" fill="#64748b">→</text>
+    <text x="124" y="38" fill="#cbd5e1"><tspan fill="#60a5fa">Ideas</tspan> → <tspan fill="#38bdf8">Agents</tspan> → <tspan fill="#34d399">Impact</tspan></text>
+
+    <!-- Line 4: status -->
+    <text x="0" y="57" fill="#a855f7">$</text>
+    <text x="14" y="57" fill="#94a3b8">status</text>
+    <text x="100" y="57" fill="#64748b">→</text>
+    <text x="124" y="57" fill="#34d399" font-weight="600">Building...</text>
+  </g>
+</svg>
