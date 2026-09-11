@@ -34,7 +34,7 @@
 <br/>
 
 <!-- Full-Width Tech Stack -->
-<img src="./assets/tech_stack.png" width="100%" alt="Tech Stack" />
+<img src="./assets/tech_stack.svg" width="100%" alt="Tech Stack" />
 
 <br/>
 
