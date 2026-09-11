@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Hero Banner -->
-<img src="./assets/header.svg" width="100%" alt="Sudharsana K - AI/ML Engineer | Agentic AI Builder" />
+<img src="./assets/header.png" width="100%" alt="Sudharsana K - AI and Agentic AI Engineer" />
 
 <br/>
 
@@ -15,12 +15,12 @@
   <tr>
     <td width="33.3%" align="center" valign="top">
       <a href="https://github.com/Sudharsana125/AgeisMesh_Multi-Agent_Crisis_Command_Center.">
-        <img src="./assets/project_aegismesh.svg" width="100%" alt="AegisMesh" />
+        <img src="./assets/project_aegismesh.svg" width="100%" alt="AegisMesh - Crisis Command Center" />
       </a>
     </td>
     <td width="33.3%" align="center" valign="top">
       <a href="https://github.com/Sudharsana125/Smart_Facility_Agents_Project">
-        <img src="./assets/project_facility.svg" width="100%" alt="Smart Facility Management" />
+        <img src="./assets/project_facility.svg" width="100%" alt="Smart Facility Management Agents" />
       </a>
     </td>
     <td width="33.3%" align="center" valign="top">
@@ -38,16 +38,14 @@
 
 <br/>
 
-<!-- Current Focus & Terminal/Connect (2-Column Layout) -->
+<!-- Current Focus & Terminal + Connect (50/50 Matched Height Grid) -->
 <table border="0" cellpadding="0" cellspacing="6" width="100%">
   <tr>
-    <td width="48%" align="center" valign="top">
-      <img src="./assets/current_focus.svg" width="100%" alt="Current Focus" />
+    <td width="50%" align="center" valign="top">
+      <img src="./assets/current_focus.svg" width="100%" alt="Active Engineering Focus" />
     </td>
-    <td width="52%" align="center" valign="top">
-      <img src="./assets/terminal.svg" width="100%" alt="Open Terminal" />
-      <br/>
-      <img src="./assets/lets_connect.svg" width="100%" alt="Let's Connect" />
+    <td width="50%" align="center" valign="top">
+      <img src="./assets/terminal_connect.svg" width="100%" alt="Terminal &amp; Connect" />
     </td>
   </tr>
 </table>
