@@ -65,11 +65,13 @@
   <!-- LEFT HERO INFO (Minimalist & Professional) -->
   <g transform="translate(40, 105)">
     <!-- Role Subtitle Badge -->
-    <text x="0" y="0" font-size="12" font-weight="800" letter-spacing="3" fill="#38bdf8" class="mono">AI &amp; AGENTIC SYSTEMS ENGINEER</text>
-
+   
     <!-- Main Clean Typography -->
     <text x="0" y="46" font-size="50" font-weight="900" letter-spacing="1.5" fill="url(#titaniumText)" class="sans">
-      SUDHARSANA <tspan fill="#38bdf8">K</tspan>
+      SUDHARSANA K<tspan fill="#38bdf8">K</tspan>
+    </text>
+    <text x="0" y="80" font-size="14" font-weight="500" fill="#94a3b8" class="sans">
+      "Nice to meet you "  
     </text>
 
   
