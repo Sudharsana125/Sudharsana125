@@ -118,16 +118,15 @@
     </g>
 
     <!-- Badges Grid (6 interactive pills) -->
+
     <!-- Pill 1: CrewAI -->
     <a xlink:href="https://crewai.com" target="_blank">
       <g class="tech-pill" transform="translate(18, 44)">
         <rect x="0" y="0" width="132" height="46" rx="8" fill="#2d0d4f" stroke="#c084fc" stroke-width="1.2" />
-        <circle cx="22" cy="23" r="10" fill="#ec4899" />
-        <circle cx="18" cy="23" r="2.5" fill="#ffffff" />
-        <circle cx="26" cy="19" r="2" fill="#ffffff" />
-        <circle cx="26" cy="27" r="2" fill="#ffffff" />
-        <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">CrewAI</text>
-        <text x="42" y="36" font-size="9" fill="#f0abfc" class="sans">Swarm Mesh</text>
+        <image href="https://img.shields.io/badge/CrewAI-ec4899?style=flat&amp;logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIGZpbGw9IndoaXRlIi8+PC9zdmc+" x="6" y="5" width="120" height="36" preserveAspectRatio="xMidYMid meet" />
+        <!-- Fallback text label -->
+        <text x="66" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">CrewAI</text>
+        <text x="66" y="35" font-size="9" fill="#f0abfc" text-anchor="middle" class="sans">Swarm Mesh</text>
       </g>
     </a>
 
@@ -135,10 +134,9 @@
     <a xlink:href="https://langchain-ai.github.io/langgraph/" target="_blank">
       <g class="tech-pill" transform="translate(160, 44)">
         <rect x="0" y="0" width="138" height="46" rx="8" fill="#1b124a" stroke="#818cf8" stroke-width="1.2" />
-        <circle cx="22" cy="23" r="10" fill="#6366f1" />
-        <path d="M17 26 L22 18 L27 26 Z" fill="none" stroke="#ffffff" stroke-width="1.2" />
-        <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">LangGraph</text>
-        <text x="42" y="36" font-size="9" fill="#c7d2fe" class="sans">State Machines</text>
+        <image href="https://img.shields.io/badge/LangGraph-6366f1?style=flat&amp;logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBvbHlnb24gcG9pbnRzPSIxMiwyIDIyLDIyIDIsMjIiIGZpbGw9IndoaXRlIi8+PC9zdmc+" x="5" y="5" width="128" height="36" preserveAspectRatio="xMidYMid meet" />
+        <text x="69" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">LangGraph</text>
+        <text x="69" y="35" font-size="9" fill="#c7d2fe" text-anchor="middle" class="sans">State Machines</text>
       </g>
     </a>
 
@@ -146,11 +144,9 @@
     <a xlink:href="https://www.langchain.com/" target="_blank">
       <g class="tech-pill" transform="translate(308, 44)">
         <rect x="0" y="0" width="134" height="46" rx="8" fill="#0c233c" stroke="#38bdf8" stroke-width="1.2" />
-        <circle cx="22" cy="23" r="10" fill="#0284c7" />
-        <!-- Link Icon -->
-        <path d="M18 25 L21 22 M23 20 L26 17" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
-        <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">LangChain</text>
-        <text x="42" y="36" font-size="9" fill="#bae6fd" class="sans">Chains &amp; Tools</text>
+        <image href="https://img.shields.io/badge/LangChain-0284c7?style=flat&amp;logo=chainlink&amp;logoColor=white" x="5" y="5" width="124" height="36" preserveAspectRatio="xMidYMid meet" />
+        <text x="67" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">LangChain</text>
+        <text x="67" y="35" font-size="9" fill="#bae6fd" text-anchor="middle" class="sans">Chains &amp; Tools</text>
       </g>
     </a>
 
@@ -158,10 +154,9 @@
     <a xlink:href="https://n8n.io/" target="_blank">
       <g class="tech-pill" transform="translate(18, 100)">
         <rect x="0" y="0" width="132" height="46" rx="8" fill="#2e0d29" stroke="#f43f5e" stroke-width="1.2" />
-        <circle cx="22" cy="23" r="10" fill="#e11d48" />
-        <path d="M17 23 C17 20, 27 26, 27 23" fill="none" stroke="#ffffff" stroke-width="1.5" />
-        <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">n8n</text>
-        <text x="42" y="36" font-size="9" fill="#fecdd3" class="sans">Agentic Workflows</text>
+        <image href="https://img.shields.io/badge/n8n-e11d48?style=flat&amp;logo=n8n&amp;logoColor=white" x="6" y="5" width="120" height="36" preserveAspectRatio="xMidYMid meet" />
+        <text x="66" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">n8n</text>
+        <text x="66" y="35" font-size="9" fill="#fecdd3" text-anchor="middle" class="sans">Agentic Workflows</text>
       </g>
     </a>
 
@@ -169,22 +164,18 @@
     <a xlink:href="https://flowiseai.com/" target="_blank">
       <g class="tech-pill" transform="translate(160, 100)">
         <rect x="0" y="0" width="138" height="46" rx="8" fill="#0a2538" stroke="#06b6d4" stroke-width="1.2" />
-        <circle cx="22" cy="23" r="10" fill="#0891b2" />
-        <path d="M16 23 C19 19, 21 27, 24 23 C26 20, 27 23, 28 23" fill="none" stroke="#ffffff" stroke-width="1.4" />
-        <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">Flowise</text>
-        <text x="42" y="36" font-size="9" fill="#a5f3fc" class="sans">Visual Agents</text>
+        <image href="https://img.shields.io/badge/Flowise-0891b2?style=flat&amp;logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTMgMTJjMy0zIDYgMyA5IDAgMy0zIDYgMCA5IDAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==" x="5" y="5" width="128" height="36" preserveAspectRatio="xMidYMid meet" />
+        <text x="69" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">Flowise</text>
+        <text x="69" y="35" font-size="9" fill="#a5f3fc" text-anchor="middle" class="sans">Visual Agents</text>
       </g>
     </a>
 
     <!-- Pill 6: Multi-Agent Swarms -->
     <g class="tech-pill" transform="translate(308, 100)">
       <rect x="0" y="0" width="134" height="46" rx="8" fill="#06261f" stroke="#10b981" stroke-width="1.2" />
-      <circle cx="22" cy="23" r="10" fill="#059669" />
-      <circle cx="18" cy="20" r="2" fill="#ffffff" />
-      <circle cx="26" cy="20" r="2" fill="#ffffff" />
-      <circle cx="22" cy="26" r="2" fill="#ffffff" />
-      <text x="42" y="23" font-size="11.5" font-weight="800" fill="#ffffff" class="sans">Agent Swarms</text>
-      <text x="42" y="36" font-size="9" fill="#a7f3d0" class="sans">Adversarial Consensus</text>
+      <image href="https://img.shields.io/badge/Agent_Swarms-059669?style=flat&amp;logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iNiIgY3k9IjciIHI9IjMiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI3IiByPSIzIiBmaWxsPSJ3aGl0ZSIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTciIHI9IjMiIGZpbGw9IndoaXRlIi8+PC9zdmc+" x="4" y="5" width="126" height="36" preserveAspectRatio="xMidYMid meet" />
+      <text x="67" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">Agent Swarms</text>
+      <text x="67" y="35" font-size="9" fill="#a7f3d0" text-anchor="middle" class="sans">Adversarial Consensus</text>
     </g>
   </g>
 
@@ -201,69 +192,57 @@
       <text x="24" y="2" font-size="13" font-weight="800" fill="#7dd3fc" letter-spacing="1" class="mono">AI / ML &amp; HYBRID RAG</text>
     </g>
 
-    <!-- Badges Grid (6 interactive pills) -->
-    <!-- Pill 1: Gemini & OpenAI -->
+    <!-- Pill 1: Gemini / LLMs -->
     <a xlink:href="https://deepmind.google/technologies/gemini/" target="_blank">
       <g class="tech-pill" transform="translate(18, 44)">
         <rect x="0" y="0" width="132" height="46" rx="8" fill="#0a2542" stroke="#60a5fa" stroke-width="1.2" />
-        <circle cx="22" cy="23" r="10" fill="#2563eb" />
-        <!-- Sparkle Star -->
-        <path d="M22 17 L23.5 21.5 L28 23 L23.5 24.5 L22 29 L20.5 24.5 L16 23 L20.5 21.5 Z" fill="#ffffff" />
-        <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">Gemini / LLMs</text>
-        <text x="42" y="36" font-size="9" fill="#bfdbfe" class="sans">Reasoning Models</text>
+        <image href="https://img.shields.io/badge/Gemini-2563eb?style=flat&amp;logo=google&amp;logoColor=white" x="6" y="5" width="120" height="36" preserveAspectRatio="xMidYMid meet" />
+        <text x="66" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">Gemini / LLMs</text>
+        <text x="66" y="35" font-size="9" fill="#bfdbfe" text-anchor="middle" class="sans">Reasoning Models</text>
       </g>
     </a>
 
     <!-- Pill 2: Hybrid RAG -->
     <g class="tech-pill" transform="translate(160, 44)">
       <rect x="0" y="0" width="138" height="46" rx="8" fill="#27103a" stroke="#d946ef" stroke-width="1.2" />
-      <circle cx="22" cy="23" r="10" fill="#c026d3" />
-      <rect x="18" y="19" width="8" height="9" rx="1" fill="#ffffff" />
-      <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">Hybrid RAG</text>
-      <text x="42" y="36" font-size="9" fill="#f5d0fe" class="sans">Dense + Sparse</text>
+      <image href="https://img.shields.io/badge/Hybrid_RAG-c026d3?style=flat&amp;logo=databricks&amp;logoColor=white" x="5" y="5" width="128" height="36" preserveAspectRatio="xMidYMid meet" />
+      <text x="69" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">Hybrid RAG</text>
+      <text x="69" y="35" font-size="9" fill="#f5d0fe" text-anchor="middle" class="sans">Dense + Sparse</text>
     </g>
 
     <!-- Pill 3: PyTorch -->
     <a xlink:href="https://pytorch.org" target="_blank">
       <g class="tech-pill" transform="translate(308, 44)">
         <rect x="0" y="0" width="134" height="46" rx="8" fill="#33140a" stroke="#f97316" stroke-width="1.2" />
-        <circle cx="22" cy="23" r="10" fill="#ea580c" />
-        <!-- Flame Icon -->
-        <path d="M22 17 C24 20, 26 23, 23 27 C20 27, 19 24, 21 22 C22 20, 20 18, 22 17 Z" fill="#ffffff" />
-        <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">PyTorch</text>
-        <text x="42" y="36" font-size="9" fill="#fed7aa" class="sans">Deep Learning</text>
+        <image href="https://img.shields.io/badge/PyTorch-ea580c?style=flat&amp;logo=pytorch&amp;logoColor=white" x="5" y="5" width="124" height="36" preserveAspectRatio="xMidYMid meet" />
+        <text x="67" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">PyTorch</text>
+        <text x="67" y="35" font-size="9" fill="#fed7aa" text-anchor="middle" class="sans">Deep Learning</text>
       </g>
     </a>
 
     <!-- Pill 4: NLP & Embeddings -->
     <g class="tech-pill" transform="translate(18, 100)">
       <rect x="0" y="0" width="132" height="46" rx="8" fill="#09282a" stroke="#14b8a6" stroke-width="1.2" />
-      <circle cx="22" cy="23" r="10" fill="#0d9488" />
-      <!-- Message Dot -->
-      <path d="M16 22 C16 19, 28 19, 28 22 C28 25, 23 26, 21 27 L18 28 L19 25 C17 24, 16 23, 16 22 Z" fill="#ffffff" />
-      <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">NLP &amp; Embed</text>
-      <text x="42" y="36" font-size="9" fill="#99f6e4" class="sans">Semantic Search</text>
+      <image href="https://img.shields.io/badge/NLP_%26_Embed-0d9488?style=flat&amp;logo=huggingface&amp;logoColor=white" x="6" y="5" width="120" height="36" preserveAspectRatio="xMidYMid meet" />
+      <text x="66" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">NLP &amp; Embed</text>
+      <text x="66" y="35" font-size="9" fill="#99f6e4" text-anchor="middle" class="sans">Semantic Search</text>
     </g>
 
-    <!-- Pill 5: Prompt Eng & Eval -->
+    <!-- Pill 5: Agent Evals -->
     <g class="tech-pill" transform="translate(160, 100)">
       <rect x="0" y="0" width="138" height="46" rx="8" fill="#2d1e08" stroke="#f59e0b" stroke-width="1.2" />
-      <circle cx="22" cy="23" r="10" fill="#d97706" />
-      <circle cx="22" cy="23" r="4" fill="#ffffff" />
-      <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">Agent Evals</text>
-      <text x="42" y="36" font-size="9" fill="#fde68a" class="sans">Benchmark &amp; Triage</text>
+      <image href="https://img.shields.io/badge/Agent_Evals-d97706?style=flat&amp;logo=checkmarx&amp;logoColor=white" x="5" y="5" width="128" height="36" preserveAspectRatio="xMidYMid meet" />
+      <text x="69" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">Agent Evals</text>
+      <text x="69" y="35" font-size="9" fill="#fde68a" text-anchor="middle" class="sans">Benchmark &amp; Triage</text>
     </g>
 
-    <!-- Pill 6: Vector Stores (Pinecone/Chroma) -->
+    <!-- Pill 6: Vector DBs -->
     <a xlink:href="https://www.pinecone.io/" target="_blank">
       <g class="tech-pill" transform="translate(308, 100)">
         <rect x="0" y="0" width="134" height="46" rx="8" fill="#0c2332" stroke="#0ea5e9" stroke-width="1.2" />
-        <circle cx="22" cy="23" r="10" fill="#0284c7" />
-        <!-- Cylinder DB -->
-        <ellipse cx="22" cy="20" rx="5" ry="2" fill="#ffffff" />
-        <path d="M17 20 L17 25 C17 27, 27 27, 27 25 L27 20 Z" fill="#ffffff" />
-        <text x="42" y="23" font-size="12" font-weight="800" fill="#ffffff" class="sans">Vector DBs</text>
-        <text x="42" y="36" font-size="9" fill="#bae6fd" class="sans">Pinecone • Chroma</text>
+        <image href="https://img.shields.io/badge/Vector_DBs-0284c7?style=flat&amp;logo=pinecone&amp;logoColor=white" x="5" y="5" width="124" height="36" preserveAspectRatio="xMidYMid meet" />
+        <text x="67" y="19" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">Vector DBs</text>
+        <text x="67" y="35" font-size="9" fill="#bae6fd" text-anchor="middle" class="sans">Pinecone • Chroma</text>
       </g>
     </a>
   </g>
@@ -285,28 +264,26 @@
     <a xlink:href="https://www.python.org" target="_blank">
       <g class="tech-pill" transform="translate(14, 40)">
         <rect x="0" y="0" width="192" height="36" rx="6" fill="#1e180d" stroke="#f59e0b" stroke-width="1" />
-        <circle cx="18" cy="18" r="8" fill="#3b82f6" />
-        <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">Python</text>
-        <text x="178" y="23" font-size="9" fill="#fde68a" text-anchor="end" class="mono">Core AI ↗</text>
+        <image href="https://img.shields.io/badge/Python-3b82f6?style=flat&amp;logo=python&amp;logoColor=white" x="4" y="3" width="184" height="30" preserveAspectRatio="xMidYMid meet" />
+        <text x="96" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">Python</text>
+        <text x="96" y="29" font-size="8.5" fill="#fde68a" text-anchor="middle" class="mono">Core AI</text>
       </g>
     </a>
 
     <!-- JavaScript Pill -->
     <g class="tech-pill" transform="translate(14, 84)">
       <rect x="0" y="0" width="192" height="36" rx="6" fill="#1e180d" stroke="#eab308" stroke-width="1" />
-      <rect x="10" y="10" width="16" height="16" rx="3" fill="#eab308" />
-      <text x="18" y="22" font-size="9" font-weight="900" fill="#000000" text-anchor="middle" class="mono">JS</text>
-      <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">JavaScript</text>
-      <text x="178" y="23" font-size="9" fill="#fef08a" text-anchor="end" class="mono">Fullstack</text>
+      <image href="https://img.shields.io/badge/JavaScript-eab308?style=flat&amp;logo=javascript&amp;logoColor=black" x="4" y="3" width="184" height="30" preserveAspectRatio="xMidYMid meet" />
+      <text x="96" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">JavaScript</text>
+      <text x="96" y="29" font-size="8.5" fill="#fef08a" text-anchor="middle" class="mono">Fullstack</text>
     </g>
 
     <!-- SQL & Bash -->
     <g class="tech-pill" transform="translate(14, 128)">
       <rect x="0" y="0" width="192" height="36" rx="6" fill="#1e180d" stroke="#d97706" stroke-width="1" />
-      <circle cx="18" cy="18" r="8" fill="#d97706" />
-      <text x="18" y="22" font-size="8" font-weight="900" fill="#ffffff" text-anchor="middle" class="mono">&gt;_</text>
-      <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">SQL &amp; Bash</text>
-      <text x="178" y="23" font-size="9" fill="#fcd34d" text-anchor="end" class="mono">Scripting</text>
+      <image href="https://img.shields.io/badge/SQL_%26_Bash-d97706?style=flat&amp;logo=gnu-bash&amp;logoColor=white" x="4" y="3" width="184" height="30" preserveAspectRatio="xMidYMid meet" />
+      <text x="96" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">SQL &amp; Bash</text>
+      <text x="96" y="29" font-size="8.5" fill="#fcd34d" text-anchor="middle" class="mono">Scripting</text>
     </g>
   </g>
 
@@ -323,9 +300,9 @@
     <a xlink:href="https://www.postgresql.org" target="_blank">
       <g class="tech-pill" transform="translate(14, 40)">
         <rect x="0" y="0" width="197" height="36" rx="6" fill="#08221a" stroke="#10b981" stroke-width="1" />
-        <circle cx="18" cy="18" r="8" fill="#0284c7" />
-        <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">PostgreSQL</text>
-        <text x="185" y="23" font-size="9" fill="#a7f3d0" text-anchor="end" class="mono">Relational ↗</text>
+        <image href="https://img.shields.io/badge/PostgreSQL-0284c7?style=flat&amp;logo=postgresql&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+        <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">PostgreSQL</text>
+        <text x="98" y="29" font-size="8.5" fill="#a7f3d0" text-anchor="middle" class="mono">Relational</text>
       </g>
     </a>
 
@@ -333,18 +310,18 @@
     <a xlink:href="https://www.mongodb.com" target="_blank">
       <g class="tech-pill" transform="translate(14, 84)">
         <rect x="0" y="0" width="197" height="36" rx="6" fill="#08221a" stroke="#059669" stroke-width="1" />
-        <circle cx="18" cy="18" r="8" fill="#16a34a" />
-        <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">MongoDB</text>
-        <text x="185" y="23" font-size="9" fill="#a7f3d0" text-anchor="end" class="mono">NoSQL ↗</text>
+        <image href="https://img.shields.io/badge/MongoDB-16a34a?style=flat&amp;logo=mongodb&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+        <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">MongoDB</text>
+        <text x="98" y="29" font-size="8.5" fill="#a7f3d0" text-anchor="middle" class="mono">NoSQL</text>
       </g>
     </a>
 
-    <!-- Redis & Chroma -->
+    <!-- Redis & Caching -->
     <g class="tech-pill" transform="translate(14, 128)">
       <rect x="0" y="0" width="197" height="36" rx="6" fill="#08221a" stroke="#047857" stroke-width="1" />
-      <circle cx="18" cy="18" r="8" fill="#ef4444" />
-      <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">Redis &amp; Caching</text>
-      <text x="185" y="23" font-size="9" fill="#86efac" text-anchor="end" class="mono">Low-Latency</text>
+      <image href="https://img.shields.io/badge/Redis_%26_Caching-ef4444?style=flat&amp;logo=redis&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+      <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">Redis &amp; Caching</text>
+      <text x="98" y="29" font-size="8.5" fill="#86efac" text-anchor="middle" class="mono">Low-Latency</text>
     </g>
   </g>
 
@@ -361,10 +338,9 @@
     <a xlink:href="https://fastapi.tiangolo.com" target="_blank">
       <g class="tech-pill" transform="translate(14, 40)">
         <rect x="0" y="0" width="197" height="36" rx="6" fill="#071b38" stroke="#38bdf8" stroke-width="1" />
-        <circle cx="18" cy="18" r="8" fill="#0d9488" />
-        <text x="18" y="21" font-size="8" font-weight="900" fill="#ffffff" text-anchor="middle" class="mono">⚡</text>
-        <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">FastAPI</text>
-        <text x="185" y="23" font-size="9" fill="#7dd3fc" text-anchor="end" class="mono">Async API ↗</text>
+        <image href="https://img.shields.io/badge/FastAPI-0d9488?style=flat&amp;logo=fastapi&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+        <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">FastAPI</text>
+        <text x="98" y="29" font-size="8.5" fill="#7dd3fc" text-anchor="middle" class="mono">Async API</text>
       </g>
     </a>
 
@@ -372,9 +348,9 @@
     <a xlink:href="https://www.docker.com" target="_blank">
       <g class="tech-pill" transform="translate(14, 84)">
         <rect x="0" y="0" width="197" height="36" rx="6" fill="#071b38" stroke="#2563eb" stroke-width="1" />
-        <circle cx="18" cy="18" r="8" fill="#0284c7" />
-        <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">Docker</text>
-        <text x="185" y="23" font-size="9" fill="#93c5fd" text-anchor="end" class="mono">Containers ↗</text>
+        <image href="https://img.shields.io/badge/Docker-0284c7?style=flat&amp;logo=docker&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+        <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">Docker</text>
+        <text x="98" y="29" font-size="8.5" fill="#93c5fd" text-anchor="middle" class="mono">Containers</text>
       </g>
     </a>
 
@@ -382,9 +358,9 @@
     <a xlink:href="https://aws.amazon.com" target="_blank">
       <g class="tech-pill" transform="translate(14, 128)">
         <rect x="0" y="0" width="197" height="36" rx="6" fill="#071b38" stroke="#f59e0b" stroke-width="1" />
-        <circle cx="18" cy="18" r="8" fill="#d97706" />
-        <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">AWS Cloud</text>
-        <text x="185" y="23" font-size="9" fill="#fde68a" text-anchor="end" class="mono">EC2/S3 ↗</text>
+        <image href="https://img.shields.io/badge/AWS_Cloud-d97706?style=flat&amp;logo=amazon-aws&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+        <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">AWS Cloud</text>
+        <text x="98" y="29" font-size="8.5" fill="#fde68a" text-anchor="middle" class="mono">EC2/S3</text>
       </g>
     </a>
   </g>
@@ -402,26 +378,26 @@
     <a xlink:href="https://github.com/Sudharsana125" target="_blank">
       <g class="tech-pill" transform="translate(14, 40)">
         <rect x="0" y="0" width="197" height="36" rx="6" fill="#2b0a1d" stroke="#ec4899" stroke-width="1" />
-        <circle cx="18" cy="18" r="8" fill="#f43f5e" />
-        <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">Git &amp; GitHub</text>
-        <text x="185" y="23" font-size="9" fill="#fbcfe8" text-anchor="end" class="mono">Version Ctrl ↗</text>
+        <image href="https://img.shields.io/badge/Git_%26_GitHub-f43f5e?style=flat&amp;logo=github&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+        <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">Git &amp; GitHub</text>
+        <text x="98" y="29" font-size="8.5" fill="#fbcfe8" text-anchor="middle" class="mono">Version Ctrl</text>
       </g>
     </a>
 
     <!-- VS Code -->
     <g class="tech-pill" transform="translate(14, 84)">
       <rect x="0" y="0" width="197" height="36" rx="6" fill="#2b0a1d" stroke="#c084fc" stroke-width="1" />
-      <circle cx="18" cy="18" r="8" fill="#8b5cf6" />
-      <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">VS Code</text>
-      <text x="185" y="23" font-size="9" fill="#e9d5ff" text-anchor="end" class="mono">IDE</text>
+      <image href="https://img.shields.io/badge/VS_Code-8b5cf6?style=flat&amp;logo=visual-studio-code&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+      <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">VS Code</text>
+      <text x="98" y="29" font-size="8.5" fill="#e9d5ff" text-anchor="middle" class="mono">IDE</text>
     </g>
 
     <!-- Notion & Figma -->
     <g class="tech-pill" transform="translate(14, 128)">
       <rect x="0" y="0" width="197" height="36" rx="6" fill="#2b0a1d" stroke="#db2777" stroke-width="1" />
-      <circle cx="18" cy="18" r="8" fill="#ec4899" />
-      <text x="36" y="23" font-size="12" font-weight="700" fill="#ffffff" class="sans">Notion &amp; Figma</text>
-      <text x="185" y="23" font-size="9" fill="#fbcfe8" text-anchor="end" class="mono">Design</text>
+      <image href="https://img.shields.io/badge/Notion_%26_Figma-ec4899?style=flat&amp;logo=figma&amp;logoColor=white" x="4" y="3" width="189" height="30" preserveAspectRatio="xMidYMid meet" />
+      <text x="98" y="17" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle" class="sans">Notion &amp; Figma</text>
+      <text x="98" y="29" font-size="8.5" fill="#fbcfe8" text-anchor="middle" class="mono">Design</text>
     </g>
   </g>
 </svg>
