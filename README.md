@@ -38,7 +38,7 @@
 
 <br/>
 
-<!-- Current Focus & Connect/Terminal (2-Column Layout) -->
+<!-- Current Focus & Terminal/Connect (2-Column Layout) -->
 <table border="0" cellpadding="0" cellspacing="6" width="100%">
   <tr>
     <td width="48%" align="center" valign="top">
@@ -47,32 +47,7 @@
     <td width="52%" align="center" valign="top">
       <img src="./assets/terminal.svg" width="100%" alt="Open Terminal" />
       <br/>
-      <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tr>
-          <td colspan="5" align="left" style="padding-bottom: 10px;">
-            <img src="./assets/connect_header.svg" width="100%" alt="Let's Connect" />
-          </td>
-        </tr>
-        <tr>
-          <td width="32%" align="center">
-            <a href="https://www.linkedin.com/in/sudharsanak" target="_blank">
-              <img src="./assets/btn_linkedin.svg" width="100%" alt="LinkedIn" />
-            </a>
-          </td>
-          <td width="2%"></td>
-          <td width="32%" align="center">
-            <a href="https://github.com/Sudharsana125" target="_blank">
-              <img src="./assets/btn_github.svg" width="100%" alt="GitHub" />
-            </a>
-          </td>
-          <td width="2%"></td>
-          <td width="32%" align="center">
-            <a href="mailto:sudharsanak13@gmail.com">
-              <img src="./assets/btn_email.svg" width="100%" alt="Email" />
-            </a>
-          </td>
-        </tr>
-      </table>
+      <img src="./assets/lets_connect.svg" width="100%" alt="Let's Connect" />
     </td>
   </tr>
 </table>
