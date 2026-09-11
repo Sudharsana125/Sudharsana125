@@ -1,27 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" width="100%" height="100%">
   <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0c1222" />
-      <stop offset="100%" stop-color="#080c18" />
+    <linearGradient id="cardBgRag" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#190824" />
+      <stop offset="50%" stop-color="#230a33" />
+      <stop offset="100%" stop-color="#100418" />
     </linearGradient>
 
     <linearGradient id="cardBorderRag" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="40%" stop-color="#818cf8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#1e293b" />
+      <stop offset="0%" stop-color="#581c87" />
+      <stop offset="40%" stop-color="#d946ef" stop-opacity="0.9" />
+      <stop offset="80%" stop-color="#ec4899" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#581c87" />
     </linearGradient>
 
-    <linearGradient id="docGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="100%" stop-color="#0f172a" />
+    <linearGradient id="docGradMagenta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0764" />
+      <stop offset="100%" stop-color="#1e0538" />
     </linearGradient>
 
-    <linearGradient id="dbGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1d4ed8" />
-      <stop offset="100%" stop-color="#3b82f6" />
+    <linearGradient id="dbGradMagenta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
     </linearGradient>
 
-    <filter id="glowIndigo" x="-40%" y="-40%" width="180%" height="180%">
+    <filter id="glowMagenta" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="8" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
@@ -33,96 +35,100 @@
   </style>
 
   <!-- Card Background -->
-  <rect x="2" y="2" width="316" height="356" rx="14" fill="url(#cardBg)" stroke="url(#cardBorderRag)" stroke-width="1.5" />
+  <rect x="2" y="2" width="316" height="356" rx="14" fill="url(#cardBgRag)" stroke="url(#cardBorderRag)" stroke-width="1.5" />
 
   <!-- Top Controls -->
-  <!-- 03 Badge -->
-  <rect x="18" y="16" width="34" height="22" rx="6" fill="#0f172a" stroke="#4338ca" stroke-width="1" />
-  <text x="35" y="31" font-size="11" font-weight="700" fill="#818cf8" text-anchor="middle" class="mono">03</text>
+  <!-- 03 Badge (Magenta/Purple) -->
+  <rect x="18" y="16" width="34" height="22" rx="6" fill="#2e0840" stroke="#a21caf" stroke-width="1" />
+  <text x="35" y="31" font-size="11" font-weight="700" fill="#f472b6" text-anchor="middle" class="mono">03</text>
 
   <!-- Arrow Circle Icon -->
-  <circle cx="286" cy="27" r="13" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-  <path d="M282 31L290 23M290 23H284M290 23V29" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="286" cy="27" r="13" fill="#2e0840" stroke="#86198f" stroke-width="1" />
+  <path d="M282 31L290 23M290 23H284M290 23V29" stroke="#f472b6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 
-  <!-- RAG Vector DB & Documents Illustration -->
+  <!-- RAG Vector DB & Documents Illustration (Magenta/Violet) -->
   <g transform="translate(160, 105)">
     <!-- Ambient Aura -->
-    <ellipse cx="0" cy="15" rx="55" ry="25" fill="#6366f1" fill-opacity="0.18" filter="url(#glowIndigo)" />
+    <ellipse cx="0" cy="15" rx="55" ry="25" fill="#d946ef" fill-opacity="0.22" filter="url(#glowMagenta)" />
 
     <!-- Left: Layered Document Sheets -->
     <g transform="translate(-46, -26)">
       <!-- Back Doc -->
-      <rect x="0" y="0" width="32" height="42" rx="4" fill="#1e293b" stroke="#334155" stroke-width="0.8" />
+      <rect x="0" y="0" width="32" height="42" rx="4" fill="#3b0764" stroke="#701a75" stroke-width="0.8" />
       <!-- Middle Doc -->
-      <rect x="8" y="6" width="32" height="42" rx="4" fill="#0f172a" stroke="#3b82f6" stroke-width="0.8" />
+      <rect x="8" y="6" width="32" height="42" rx="4" fill="#2a0845" stroke="#a21caf" stroke-width="0.8" />
       <!-- Front Doc -->
-      <rect x="16" y="12" width="32" height="42" rx="4" fill="#0b1329" stroke="#60a5fa" stroke-width="1" />
+      <rect x="16" y="12" width="32" height="42" rx="4" fill="#1b0430" stroke="#f472b6" stroke-width="1" />
       <!-- Lines inside front doc -->
-      <line x1="21" y1="20" x2="38" y2="20" stroke="#93c5fd" stroke-width="1.5" stroke-linecap="round" />
-      <line x1="21" y1="25" x2="43" y2="25" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round" />
-      <line x1="21" y1="30" x2="36" y2="30" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round" />
-      <line x1="21" y1="35" x2="41" y2="35" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round" />
-      <line x1="21" y1="40" x2="30" y2="40" stroke="#60a5fa" stroke-width="1.2" stroke-linecap="round" />
+      <line x1="22" y1="20" x2="42" y2="20" stroke="#f472b6" stroke-width="1.2" stroke-linecap="round" />
+      <line x1="22" y1="26" x2="38" y2="26" stroke="#c084fc" stroke-width="1.2" stroke-linecap="round" />
+      <line x1="22" y1="32" x2="40" y2="32" stroke="#c084fc" stroke-width="1.2" stroke-linecap="round" />
+      <line x1="22" y1="38" x2="32" y2="38" stroke="#a855f7" stroke-width="1.2" stroke-linecap="round" />
+
+      <!-- RAG Badge on Document -->
+      <rect x="22" y="44" width="22" height="8" rx="2" fill="#ec4899" />
+      <text x="33" y="50.5" font-size="5.5" font-weight="800" fill="#ffffff" text-anchor="middle" class="sans">RAG</text>
     </g>
 
-    <!-- Right: 3D Vector Database Cylinder Stack -->
-    <g transform="translate(24, -14)">
-      <!-- Cylinder 1 (Top) -->
-      <g transform="translate(0, 0)">
-        <path d="M0 8 C0 13 32 13 32 8 L32 18 C32 23 0 23 0 18 Z" fill="url(#dbGrad)" />
-        <ellipse cx="16" cy="8" rx="16" ry="6" fill="#60a5fa" stroke="#93c5fd" stroke-width="0.8" />
-        <ellipse cx="16" cy="18" rx="16" ry="6" fill="none" stroke="#2563eb" stroke-width="0.8" />
+    <!-- Center: Glowing Vector Transfer Flow -->
+    <g transform="translate(4, -2)">
+      <!-- Curved Wave Connectors -->
+      <path d="M-10 -6 C-2 -12, 2 0, 14 -6" fill="none" stroke="#f43f5e" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="2 2" />
+      <path d="M-10 6 C-2 0, 2 12, 14 6" fill="none" stroke="#d946ef" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="2 2" />
+
+      <!-- Glowing Vector Particle Dots -->
+      <circle cx="-6" cy="-8" r="2.5" fill="#f43f5e" filter="url(#glowMagenta)" />
+      <circle cx="2" cy="0" r="3" fill="#fb7185" />
+      <circle cx="10" cy="8" r="2.5" fill="#d946ef" />
+    </g>
+
+    <!-- Right: Vector DB Cylinders (Stacked) -->
+    <g transform="translate(36, -8)">
+      <!-- Cylinder 1 (Bottom) -->
+      <g transform="translate(0, 26)">
+        <path d="M0,6 C0,10 24,10 24,6 L24,18 C24,22 0,22 0,18 Z" fill="url(#dbGradMagenta)" />
+        <ellipse cx="12" cy="6" rx="12" ry="4" fill="#f472b6" />
       </g>
 
       <!-- Cylinder 2 (Middle) -->
-      <g transform="translate(0, 14)">
-        <path d="M0 8 C0 13 32 13 32 8 L32 18 C32 23 0 23 0 18 Z" fill="url(#dbGrad)" />
-        <ellipse cx="16" cy="18" rx="16" ry="6" fill="none" stroke="#2563eb" stroke-width="0.8" />
+      <g transform="translate(0, 13)">
+        <path d="M0,6 C0,10 24,10 24,6 L24,18 C24,22 0,22 0,18 Z" fill="url(#dbGradMagenta)" />
+        <ellipse cx="12" cy="6" rx="12" ry="4" fill="#f472b6" />
       </g>
 
-      <!-- Cylinder 3 (Bottom) -->
-      <g transform="translate(0, 28)">
-        <path d="M0 8 C0 13 32 13 32 8 L32 18 C32 23 0 23 0 18 Z" fill="url(#dbGrad)" />
-        <ellipse cx="16" cy="18" rx="16" ry="6" fill="none" stroke="#2563eb" stroke-width="0.8" />
+      <!-- Cylinder 3 (Top) -->
+      <g transform="translate(0, 0)">
+        <path d="M0,6 C0,10 24,10 24,6 L24,18 C24,22 0,22 0,18 Z" fill="url(#dbGradMagenta)" />
+        <ellipse cx="12" cy="6" rx="12" ry="4" fill="#fbcfe8" />
+        <!-- DB Glow Indicator -->
+        <circle cx="12" cy="6" r="2" fill="#ffffff" />
       </g>
-    </g>
-
-    <!-- Center Bridge: Glowing Neural Query Pipe & RAG Badge -->
-    <g transform="translate(-10, 10)">
-      <!-- Connecting Data Flow Stream -->
-      <path d="M-6 8 C6 -2, 14 -2, 26 8" fill="none" stroke="#818cf8" stroke-width="2" stroke-dasharray="3 2" />
-      
-      <!-- Glowing RAG Box Badge -->
-      <rect x="-14" y="-2" width="38" height="22" rx="5" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" filter="url(#glowIndigo)" />
-      <rect x="-14" y="-2" width="38" height="22" rx="5" fill="#0f172a" stroke="#38bdf8" stroke-width="1.2" />
-      <text x="5" y="13" font-size="11" font-weight="900" fill="#38bdf8" text-anchor="middle" class="mono">RAG</text>
     </g>
   </g>
 
   <!-- Title -->
-  <text x="20" y="196" font-size="18" font-weight="800" fill="#ffffff" class="sans">Intelligent RAG System</text>
+  <text x="20" y="196" font-size="20" font-weight="800" fill="#ffffff" class="sans">Intelligent RAG System</text>
 
   <!-- Description -->
-  <text x="20" y="222" font-size="12" fill="#94a3b8" class="sans">Domain-aware RAG system for accurate,</text>
+  <text x="20" y="222" font-size="12" fill="#f472b6" class="sans">Domain-aware RAG system for accurate,</text>
   <text x="20" y="240" font-size="12" fill="#94a3b8" class="sans">context-rich answers using LLMs and</text>
   <text x="20" y="258" font-size="12" fill="#94a3b8" class="sans">intelligent retrieval pipelines.</text>
 
-  <!-- Tags Row -->
+  <!-- Tags Row (Magenta/Pink) -->
   <g transform="translate(18, 304)">
-    <!-- Python -->
-    <rect x="0" y="0" width="58" height="26" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-    <text x="29" y="17" font-size="11" font-weight="600" fill="#818cf8" text-anchor="middle" class="sans">Python</text>
+    <rect x="0" y="0" width="58" height="26" rx="6" fill="#2e0840" stroke="#a21caf" stroke-width="1" />
+    <text x="29" y="17" font-size="11" font-weight="600" fill="#f472b6" text-anchor="middle" class="sans">Python</text>
 
-    <!-- LLMs -->
-    <rect x="64" y="0" width="48" height="26" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-    <text x="88" y="17" font-size="11" font-weight="600" fill="#818cf8" text-anchor="middle" class="sans">LLMs</text>
+    <rect x="64" y="0" width="46" height="26" rx="6" fill="#2e0840" stroke="#a21caf" stroke-width="1" />
+    <text x="87" y="17" font-size="11" font-weight="600" fill="#f472b6" text-anchor="middle" class="sans">LLMs</text>
 
-    <!-- RAG -->
-    <rect x="118" y="0" width="44" height="26" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-    <text x="140" y="17" font-size="11" font-weight="600" fill="#818cf8" text-anchor="middle" class="sans">RAG</text>
+    <rect x="116" y="0" width="42" height="26" rx="6" fill="#2e0840" stroke="#a21caf" stroke-width="1" />
+    <text x="137" y="17" font-size="11" font-weight="600" fill="#f472b6" text-anchor="middle" class="sans">RAG</text>
 
-    <!-- LangChain -->
-    <rect x="168" y="0" width="80" height="26" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-    <text x="208" y="17" font-size="11" font-weight="600" fill="#818cf8" text-anchor="middle" class="sans">LangChain</text>
+    <rect x="164" y="0" width="76" height="26" rx="6" fill="#2e0840" stroke="#a21caf" stroke-width="1" />
+    <text x="202" y="17" font-size="11" font-weight="600" fill="#f472b6" text-anchor="middle" class="sans">LangChain</text>
+
+    <rect x="246" y="0" width="56" height="26" rx="6" fill="#2e0840" stroke="#a21caf" stroke-width="1" />
+    <text x="274" y="17" font-size="11" font-weight="600" fill="#f472b6" text-anchor="middle" class="sans">FastAPI</text>
   </g>
 </svg>

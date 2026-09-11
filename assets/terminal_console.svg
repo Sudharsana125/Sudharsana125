@@ -2,41 +2,48 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="termConsoleBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070b16" />
-      <stop offset="50%" stop-color="#0a1024" />
-      <stop offset="100%" stop-color="#050812" />
+      <stop offset="0%" stop-color="#080c18" />
+      <stop offset="35%" stop-color="#0e122b" />
+      <stop offset="70%" stop-color="#140c26" />
+      <stop offset="100%" stop-color="#060e14" />
     </linearGradient>
 
-    <!-- Outer Border Gradient -->
-    <linearGradient id="termConsoleBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="35%" stop-color="#2563eb" stop-opacity="0.8" />
-      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#1e293b" />
+    <!-- Multi-Color Rainbow Cyber Border -->
+    <linearGradient id="rainbowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="30%" stop-color="#818cf8" />
+      <stop offset="60%" stop-color="#d946ef" />
+      <stop offset="85%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#10b981" />
     </linearGradient>
 
     <!-- Terminal Screen Background -->
     <linearGradient id="termInnerBg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#050811" />
-      <stop offset="100%" stop-color="#03050a" />
+      <stop offset="100%" stop-color="#020408" />
     </linearGradient>
 
-    <!-- Connect Card Gradients -->
-    <linearGradient id="cardLinkedIn" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0c1d3b" />
-      <stop offset="100%" stop-color="#071226" />
-    </linearGradient>
-    <linearGradient id="cardGitHub" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#141a29" />
-      <stop offset="100%" stop-color="#0c101c" />
-    </linearGradient>
-    <linearGradient id="cardEmail" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#062530" />
-      <stop offset="100%" stop-color="#03151c" />
+    <!-- Connect Card Gradients (3 Distinct Vibrant Colors) -->
+    <!-- 1. LinkedIn (Sapphire Blue) -->
+    <linearGradient id="cardLinkedIn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0c234a" />
+      <stop offset="100%" stop-color="#07152e" />
     </linearGradient>
 
-    <!-- Filters -->
-    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <!-- 2. GitHub (Violet Purple) -->
+    <linearGradient id="cardGitHub" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#240c42" />
+      <stop offset="100%" stop-color="#140626" />
+    </linearGradient>
+
+    <!-- 3. Email (Warm Coral Sunset) -->
+    <linearGradient id="cardEmail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b1509" />
+      <stop offset="100%" stop-color="#210a04" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowMulti" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="4" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
@@ -49,8 +56,8 @@
     .clickable:hover { transform: translateY(-2px); }
   </style>
 
-  <!-- Base Outer Container Frame -->
-  <rect x="2" y="2" width="996" height="266" rx="16" fill="url(#termConsoleBg)" stroke="url(#termConsoleBorder)" stroke-width="1.6" />
+  <!-- Base Outer Container Frame with Multi-Color Border -->
+  <rect x="2" y="2" width="996" height="266" rx="16" fill="url(#termConsoleBg)" stroke="url(#rainbowBorder)" stroke-width="1.8" />
 
   <!-- ==================== LEFT: INTERACTIVE TERMINAL (60%) ==================== -->
   <g transform="translate(20, 18)">
@@ -66,43 +73,43 @@
     <circle cx="36" cy="17" r="5" fill="#f59e0b" />
     <circle cx="52" cy="17" r="5" fill="#10b981" />
 
-    <!-- Terminal Title -->
+    <!-- Terminal Title (User's Title) -->
     <text x="285" y="21" font-size="11.5" font-weight="600" fill="#94a3b8" text-anchor="middle" class="mono">sudharsana's work</text>
 
-    <!-- Terminal Code Stream -->
+    <!-- Terminal Code Stream (Preserving User's exact text with vibrant neon colors) -->
     <g transform="translate(22, 58)" font-size="12" class="mono">
-      <!-- Line 1: whoami -->
+      <!-- Line 1: whoami (Cyan) -->
       <text x="0" y="0" fill="#38bdf8" font-weight="700">$</text>
       <text x="14" y="0" fill="#e2e8f0" font-weight="600">whoami</text>
       <text x="120" y="0" fill="#64748b">→</text>
-      <text x="140" y="0" fill="#f8fafc" font-weight="700">Sudharsana K</text>
+      <text x="140" y="0" fill="#ffffff" font-weight="700">Sudharsana K</text>
       <text x="248" y="0" fill="#38bdf8" font-size="11.5">[AI &amp; Agentic AI Engineer]</text>
 
-      <!-- Line 2: focus -->
-      <text x="0" y="26" fill="#38bdf8" font-weight="700">$</text>
+      <!-- Line 2: focus (Violet/Magenta) -->
+      <text x="0" y="26" fill="#c084fc" font-weight="700">$</text>
       <text x="14" y="26" fill="#e2e8f0" font-weight="600">core_focus</text>
       <text x="120" y="26" fill="#64748b">→</text>
-      <text x="140" y="26" fill="#7dd3fc" font-weight="600">AI Automation &amp; Rag Systems &amp; Data Analytics</text>
+      <text x="140" y="26" fill="#e879f9" font-weight="600">AI Automation &amp; Rag Systems &amp; Data Analytics</text>
 
-      <!-- Line 3: stack -->
-      <text x="0" y="52" fill="#38bdf8" font-weight="700">$</text>
+      <!-- Line 3: stack (Emerald Green) -->
+      <text x="0" y="52" fill="#34d399" font-weight="700">$</text>
       <text x="14" y="52" fill="#e2e8f0" font-weight="600">frameworks</text>
       <text x="120" y="52" fill="#64748b">→</text>
-      <text x="140" y="52" fill="#cbd5e1">CrewAI • LangGraph • Lanchain • Pinecone • FastAPI</text>
+      <text x="140" y="52" fill="#a7f3d0"><tspan fill="#ec4899">CrewAI</tspan> • <tspan fill="#38bdf8">LangGraph</tspan> • <tspan fill="#34d399">LangChain</tspan> • <tspan fill="#fbbf24">Pinecone</tspan> • <tspan fill="#60a5fa">FastAPI</tspan></text>
 
-      <!-- Line 4: mission -->
-      <text x="0" y="78" fill="#38bdf8" font-weight="700">$</text>
-      <text x="14" y="78" fill="#e2e8f0" font-weight="600">Tools</text>
+      <!-- Line 4: tools (Amber) -->
+      <text x="0" y="78" fill="#fbbf24" font-weight="700">$</text>
+      <text x="14" y="78" fill="#e2e8f0" font-weight="600">tools</text>
       <text x="120" y="78" fill="#64748b">→</text>
-      <text x="140" y="78" fill="#94a3b8">n8n • Flowise • </text>
+      <text x="140" y="78" fill="#fde68a"><tspan fill="#f43f5e">n8n</tspan> • <tspan fill="#38bdf8">Flowise</tspan> • <tspan fill="#c084fc">Docker</tspan> • <tspan fill="#34d399">Git</tspan></text>
 
-      <!-- Line 5: status -->
-      <text x="0" y="104" fill="#38bdf8" font-weight="700">$</text>
+      <!-- Line 5: status (Rose Pink / Green) -->
+      <text x="0" y="104" fill="#f43f5e" font-weight="700">$</text>
       <text x="14" y="104" fill="#e2e8f0" font-weight="600">status</text>
       <text x="120" y="104" fill="#64748b">→</text>
-      <text x="140" y="104" fill="#34d399" font-weight="700">Open to High-Impact Opportunities</text>
+      <text x="140" y="104" fill="#4ade80" font-weight="700">Open to High-Impact Opportunities</text>
 
-      <!-- Cursor -->
+      <!-- Cursor (Cyan Glow) -->
       <rect x="0" y="122" width="8" height="15" fill="#38bdf8" />
       <text x="16" y="135" fill="#64748b" font-size="11">ready for input_</text>
     </g>
@@ -115,16 +122,16 @@
   <g transform="translate(632, 24)">
     <!-- Header -->
     <g transform="translate(4, 10)">
-      <circle cx="6" cy="6" r="4.5" fill="#38bdf8" filter="url(#cyanGlow)" />
+      <circle cx="6" cy="6" r="4.5" fill="#d946ef" filter="url(#glowMulti)" />
       <text x="22" y="11" font-size="14.5" font-weight="800" fill="#f8fafc" class="sans">Let's Connect &amp; Collaborate</text>
     </g>
     <text x="26" y="44" font-size="11" fill="#94a3b8" class="sans">Building intelligent agentic systems for the future.</text>
 
-    <!-- 3 Glowing Connected Action Cards -->
+    <!-- 3 Glowing Connected Action Cards (Colorful) -->
     <g transform="translate(0, 58)">
-      <!-- LinkedIn Card -->
+      <!-- 1. LinkedIn Card (Sapphire Blue) -->
       <a xlink:href="https://www.linkedin.com/in/sudharsanak" target="_blank" class="clickable">
-        <rect x="0" y="0" width="345" height="42" rx="8" fill="url(#cardLinkedIn)" stroke="#2563eb" stroke-width="1" />
+        <rect x="0" y="0" width="345" height="42" rx="8" fill="url(#cardLinkedIn)" stroke="#2563eb" stroke-width="1.2" />
         <rect x="10" y="8" width="26" height="26" rx="5" fill="#0a66c2" />
         <text x="23" y="25" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" class="sans">in</text>
         <text x="48" y="26" font-size="13" font-weight="700" fill="#ffffff" class="sans">LinkedIn</text>
@@ -132,31 +139,31 @@
         <text x="325" y="26" font-size="12" fill="#60a5fa" text-anchor="end" class="sans">Connect ↗</text>
       </a>
 
-      <!-- GitHub Card -->
+      <!-- 2. GitHub Card (Violet Purple) -->
       <a xlink:href="https://github.com/Sudharsana125" target="_blank" class="clickable" transform="translate(0, 48)">
-        <rect x="0" y="0" width="345" height="42" rx="8" fill="url(#cardGitHub)" stroke="#334155" stroke-width="1" />
+        <rect x="0" y="0" width="345" height="42" rx="8" fill="url(#cardGitHub)" stroke="#8b5cf6" stroke-width="1.2" />
         <g transform="translate(10, 8)">
-          <rect x="0" y="0" width="26" height="26" rx="5" fill="#1e293b" />
+          <rect x="0" y="0" width="26" height="26" rx="5" fill="#581c87" />
           <g transform="translate(5, 5) scale(0.66)">
             <path fill="#ffffff" fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
           </g>
         </g>
         <text x="48" y="26" font-size="13" font-weight="700" fill="#ffffff" class="sans">GitHub</text>
-        <text x="105" y="26" font-size="11" fill="#94a3b8" class="sans">/Sudharsana125</text>
-        <text x="325" y="26" font-size="12" fill="#cbd5e1" text-anchor="end" class="sans">Follow ↗</text>
+        <text x="105" y="26" font-size="11" fill="#c084fc" class="sans">/Sudharsana125</text>
+        <text x="325" y="26" font-size="12" fill="#d8b4fe" text-anchor="end" class="sans">Follow ↗</text>
       </a>
 
-      <!-- Email Card -->
+      <!-- 3. Email Card (Warm Coral / Sunset Orange) -->
       <a xlink:href="mailto:sudharsanak13@gmail.com" class="clickable" transform="translate(0, 96)">
-        <rect x="0" y="0" width="345" height="42" rx="8" fill="url(#cardEmail)" stroke="#0e7490" stroke-width="1" />
+        <rect x="0" y="0" width="345" height="42" rx="8" fill="url(#cardEmail)" stroke="#ea580c" stroke-width="1.2" />
         <g transform="translate(10, 8)">
-          <rect x="0" y="0" width="26" height="26" rx="5" fill="#0c4a6e" />
-          <rect x="4" y="6" width="18" height="13" rx="2" fill="none" stroke="#38bdf8" stroke-width="1.4" />
-          <path d="M4 8 L13 14 L22 8" fill="none" stroke="#38bdf8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+          <rect x="0" y="0" width="26" height="26" rx="5" fill="#9a3412" />
+          <rect x="4" y="6" width="18" height="13" rx="2" fill="none" stroke="#fed7aa" stroke-width="1.4" />
+          <path d="M4 8 L13 14 L22 8" fill="none" stroke="#fed7aa" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
         </g>
         <text x="48" y="26" font-size="13" font-weight="700" fill="#ffffff" class="sans">Email</text>
-        <text x="95" y="26" font-size="11" fill="#67e8f9" class="sans">sudharsanak13@gmail.com</text>
-        <text x="325" y="26" font-size="12" fill="#38bdf8" text-anchor="end" class="sans">Send ↗</text>
+        <text x="95" y="26" font-size="11" fill="#fdba74" class="sans">sudharsanak13@gmail.com</text>
+        <text x="325" y="26" font-size="12" fill="#fb923c" text-anchor="end" class="sans">Send ↗</text>
       </a>
     </g>
   </g>
