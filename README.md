@@ -38,17 +38,8 @@
 
 <br/>
 
-<!-- Current Focus & Terminal + Connect (50/50 Matched Height Grid) -->
-<table border="0" cellpadding="0" cellspacing="6" width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <img src="./assets/current_focus.svg" width="100%" alt="Active Engineering Focus" />
-    </td>
-    <td width="50%" align="center" valign="top">
-      <img src="./assets/terminal_connect.svg" width="100%" alt="Terminal &amp; Connect" />
-    </td>
-  </tr>
-</table>
+<!-- Full-Width Open Terminal & Connect Console -->
+<img src="./assets/terminal_console.svg" width="100%" alt="Terminal &amp; Connect Console" />
 
 <br/>
 
