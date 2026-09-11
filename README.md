@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Hero Banner -->
-<img src="./assets/header.png" width="100%" alt="Sudharsana K - AI and Agentic AI Engineer" />
+<img src="./assets/header.svg" width="100%" alt="Sudharsana K - AI and Agentic AI Engineer" />
 
 <br/>
 
