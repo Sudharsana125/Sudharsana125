@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/Sudharsana125"><img src="./assets/connect_github.png" width="76" alt="GitHub" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/sudharsana-k/"><img src="./assets/connect_linkedin.png" width="76" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/sudharsanaK13"><img src="./assets/connect_linkedin.png" width="76" alt="LinkedIn" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:sudharsanak13@gmail.com?subject=Collaborating%20on%20Agentic%20AI"><img src="./assets/connect_gmail.png" width="76" alt="Email" /></a>
 </p>
