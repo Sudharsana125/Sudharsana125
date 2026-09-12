@@ -1,94 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" width="100%" height="100%">
   <defs>
-    <!-- Executive Slate / Obsidian Gradient -->
-    <linearGradient id="proBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080d1a" />
-      <stop offset="50%" stop-color="#0b1326" />
-      <stop offset="100%" stop-color="#070b16" />
+    <!-- Background & Glowing Ambient -->
+    <linearGradient id="hdrBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#080e1d" />
+      <stop offset="100%" stop-color="#060a14" />
     </linearGradient>
 
-    <!-- Refined Azure Border -->
-    <linearGradient id="proBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Animated Border Gradient -->
+    <linearGradient id="animatedBorder" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="35%" stop-color="#2563eb" stop-opacity="0.8" />
-      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#38bdf8" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="70%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#38bdf8;#818cf8" dur="4s" repeatCount="indefinite" />
+      </stop>
       <stop offset="100%" stop-color="#1e293b" />
     </linearGradient>
 
-    <!-- Metallic Titanium Name Gradient -->
-    <linearGradient id="titaniumText" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="70%" stop-color="#e2e8f0" />
-      <stop offset="100%" stop-color="#cbd5e1" />
-    </linearGradient>
-
-    <!-- Subtle Clean Blue Glow Filter -->
-    <filter id="subtleBlueGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
-    <filter id="softBacklight" x="-30%" y="-30%" width="160%" height="160%">
+    <!-- Ambient Glow Filter -->
+    <filter id="ambientBlur" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="35" result="blur" />
     </filter>
 
-    <!-- Clean Tech Dot Grid -->
-    <pattern id="cleanGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <circle cx="15" cy="15" r="0.65" fill="#334155" fill-opacity="0.4" />
+    <filter id="beaconGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Fine Matrix Dots -->
+    <pattern id="hdrDots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="0.75" fill="#334155" fill-opacity="0.35" />
     </pattern>
   </defs>
 
   <style>
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
     .mono { font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', 'Courier New', monospace; }
+    
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.9; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.95); }
+    }
+    .pulse-dot {
+      animation: pulseGlow 2.4s ease-in-out infinite;
+    }
   </style>
 
   <!-- Container Box -->
-  <rect x="2" y="2" width="996" height="296" rx="14" fill="url(#proBg)" stroke="url(#proBorder)" stroke-width="1.5" />
-  <rect x="2" y="2" width="996" height="296" rx="14" fill="url(#cleanGrid)" />
+  <rect x="2" y="2" width="996" height="266" rx="14" fill="url(#hdrBg)" stroke="url(#animatedBorder)" stroke-width="1.6" />
+  <rect x="2" y="2" width="996" height="266" rx="14" fill="url(#hdrDots)" />
 
-  <!-- Soft Azure Ambient Glow -->
-  <circle cx="200" cy="150" r="140" fill="#1d4ed8" fill-opacity="0.12" filter="url(#softBacklight)" />
-  <circle cx="820" cy="150" r="130" fill="#0284c7" fill-opacity="0.12" filter="url(#softBacklight)" />
+  <!-- Ambient Light Backdrops -->
+  <circle cx="220" cy="130" r="110" fill="#0284c7" fill-opacity="0.14" filter="url(#ambientBlur)" />
+  <circle cx="780" cy="140" r="110" fill="#6366f1" fill-opacity="0.12" filter="url(#ambientBlur)" />
 
-  <!-- Top Terminal Bar -->
+  <!-- Top System Telemetry Bar -->
   <g transform="translate(36, 32)">
-    <circle cx="0" cy="0" r="3.5" fill="#38bdf8" />
-    <text x="12" y="4" font-size="12" font-weight="700" fill="#38bdf8" class="mono">Hello</text>
-    <text x="120" y="4" font-size="12" fill="#475569" class="mono">/</text>
-   
+    <!-- Live Status Beacon -->
+    <circle cx="0" cy="0" r="4.5" fill="#38bdf8" filter="url(#beaconGlow)">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="14" y="4" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="1.2" class="mono">SYSTEM ACTIVE</text>
+    <text x="135" y="4" font-size="11" fill="#475569" class="mono">//</text>
+    <text x="155" y="4" font-size="11" font-weight="500" fill="#94a3b8" letter-spacing="1.5" class="mono">AGENTIC ARCHITECTURE &amp; AUTONOMOUS SYSTEMS</text>
+    
+    <!-- Right HUD Pill -->
+    <g transform="translate(770, -10)">
+      <rect x="0" y="0" width="150" height="22" rx="11" fill="#0b1528" stroke="#1e3a8a" stroke-width="1" />
+      <text x="75" y="15" font-size="10" font-weight="700" fill="#7dd3fc" letter-spacing="1" text-anchor="middle" class="mono">STATUS: AVAILABLE</text>
+    </g>
   </g>
 
-  <!-- Divider Line -->
-  <line x1="36" y1="50" x2="964" y2="50" stroke="#1e293b" stroke-width="1" />
+  <!-- Fine Divider -->
+  <line x1="36" y1="52" x2="964" y2="52" stroke="#1e293b" stroke-width="1" />
+  <line x1="36" y1="52" x2="220" y2="52" stroke="#38bdf8" stroke-width="1.8" />
 
-  <!-- LEFT HERO INFO (Minimalist & Professional) -->
-  <g transform="translate(40, 105)">
-    <!-- Role Subtitle Badge -->
-   
-    <!-- Main Clean Typography -->
-    <text x="0" y="46" font-size="50" font-weight="900" letter-spacing="1.5" fill="url(#titaniumText)" class="sans">
+  <!-- Main Hero Content -->
+  <g transform="translate(42, 105)">
+    <!-- Greeting Subtitle -->
+    <text x="0" y="0" font-size="13.5" font-weight="600" fill="#38bdf8" letter-spacing="2" class="mono">NICE TO MEET YOU 👋</text>
+
+    <!-- Main Title: SUDHARSANA K -->
+    <text x="0" y="44" font-size="46" font-weight="900" letter-spacing="1.5" fill="#ffffff" class="sans">
       SUDHARSANA <tspan fill="#38bdf8">K</tspan>
     </text>
-    <text x="0" y="80" font-size="14" font-weight="500" fill="#94a3b8" class="sans">
-      "Nice to meet you "  
+
+    <!-- Description & Track -->
+    <text x="0" y="78" font-size="15" font-weight="600" fill="#94a3b8" class="sans">
+      AI / Agentic AI Developer <tspan fill="#64748b">|</tspan> <tspan fill="#cbd5e1">Building Multi-Agent Swarms &amp; Intelligent Workflows</tspan>
     </text>
 
-  
+    <!-- Live Quick Specs on the right -->
+    <g transform="translate(620, -10)">
+      <!-- Box 1 -->
+      <rect x="0" y="0" width="145" height="42" rx="8" fill="#091224" stroke="#1e293b" stroke-width="1" />
+      <text x="16" y="18" font-size="10" font-weight="600" fill="#64748b" class="mono">CORE RUNTIME</text>
+      <text x="16" y="34" font-size="12" font-weight="700" fill="#38bdf8" class="sans">CrewAI + Gemini</text>
 
-    <!-- 3 Clean Minimal Badges -->
-    <g transform="translate(0, 110)">
-      <!-- Badge 1 -->
-      <rect x="0" y="0" width="145" height="32" rx="6" fill="#0c162c" stroke="#1e3a8a" stroke-width="1" />
-      <text x="72" y="20" font-size="11.5" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">AI Automation</text>
-
-      <!-- Badge 2 -->
-      <rect x="155" y="0" width="125" height="32" rx="6" fill="#0c162c" stroke="#1e3a8a" stroke-width="1" />
-      <text x="217" y="20" font-size="11.5" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">Rag Pipelines</text>
-
-      <!-- Badge 3 -->
-      <rect x="290" y="0" width="145" height="32" rx="6" fill="#0c162c" stroke="#1e3a8a" stroke-width="1" />
-      <text x="362" y="20" font-size="11.5" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">Data Analytics</text>
+      <!-- Box 2 -->
+      <rect x="155" y="0" width="145" height="42" rx="8" fill="#091224" stroke="#1e293b" stroke-width="1" />
+      <text x="171" y="18" font-size="10" font-weight="600" fill="#64748b" class="mono">METHODOLOGY</text>
+      <text x="171" y="34" font-size="12" font-weight="700" fill="#a78bfa" class="sans">Adversarial Agents</text>
     </g>
   </g>
 </svg>

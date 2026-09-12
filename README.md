@@ -1,62 +1,24 @@
 <div align="center">
 
-<br>
-
-<p align="center">
-  <sub>Nice to meet you 👋</sub>
-</p>
-
-# Sudharsana K
-
-<p align="center">
-  <strong>AI / Agentic AI Developer</strong>
-</p>
-
-<br>
+<img src="./assets/header.svg" width="100%" alt="Sudharsana K - AI &amp; Agentic AI Developer" />
 
 </div>
+
+<br>
 
 ---
 
 ### 02 &nbsp;·&nbsp; TECH STACK
 
-<table>
-  <tbody>
-    <tr>
-      <td width="160" valign="top"><strong><code>LANGUAGES</code></strong></td>
-      <td valign="middle">
-        <a href="https://github.com/Sudharsana125?tab=repositories&q=&language=python"><img src="https://img.shields.io/badge/Python-0B0F14?style=flat-square&logo=python&logoColor=38bdf8" alt="Python" /></a>
-        <a href="https://github.com/Sudharsana125?tab=repositories&q=&language=javascript"><img src="https://img.shields.io/badge/JavaScript-0B0F14?style=flat-square&logo=javascript&logoColor=f59e0b" alt="JavaScript" /></a>
-        <a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/SQL-0B0F14?style=flat-square&logo=postgresql&logoColor=818cf8" alt="SQL" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td width="160" valign="top"><strong><code>AI / AGENTS</code></strong></td>
-      <td valign="middle">
-        <a href="https://github.com/Sudharsana125/AgeisMesh_Multi-Agent_Crisis_Command_Center."><img src="https://img.shields.io/badge/CrewAI-0B0F14?style=flat-square&logo=target&logoColor=38bdf8" alt="CrewAI" /></a>
-        <a href="https://github.com/Sudharsana125/AI-Debate-Arena"><img src="https://img.shields.io/badge/Google_Gemini-0B0F14?style=flat-square&logo=googlegemini&logoColor=818cf8" alt="Google Gemini" /></a>
-        <a href="https://github.com/Sudharsana125/Intelligent-RAG-Chatbot"><img src="https://img.shields.io/badge/OpenAI_API-0B0F14?style=flat-square&logo=openai&logoColor=38bdf8" alt="OpenAI" /></a>
-        <a href="https://github.com/Sudharsana125/Intelligent-RAG-Chatbot"><img src="https://img.shields.io/badge/ChromaDB-0B0F14?style=flat-square&logo=databricks&logoColor=4fd1c5" alt="ChromaDB" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td width="160" valign="top"><strong><code>FRAMEWORKS</code></strong></td>
-      <td valign="middle">
-        <a href="https://github.com/Sudharsana125/AgeisMesh_Multi-Agent_Crisis_Command_Center."><img src="https://img.shields.io/badge/FastAPI-0B0F14?style=flat-square&logo=fastapi&logoColor=4fd1c5" alt="FastAPI" /></a>
-        <a href="https://github.com/Sudharsana125/AI-Debate-Arena"><img src="https://img.shields.io/badge/Flask-0B0F14?style=flat-square&logo=flask&logoColor=94a3b8" alt="Flask" /></a>
-        <a href="https://github.com/Sudharsana125/Intelligent-RAG-Chatbot"><img src="https://img.shields.io/badge/Streamlit-0B0F14?style=flat-square&logo=streamlit&logoColor=f43f5e" alt="Streamlit" /></a>
-      </td>
-    </tr>
-    <tr>
-      <td width="160" valign="top"><strong><code>TOOLS & RUNTIMES</code></strong></td>
-      <td valign="middle">
-        <a href="https://github.com/Sudharsana125/AgeisMesh_Multi-Agent_Crisis_Command_Center./blob/main/pyproject.toml"><img src="https://img.shields.io/badge/uv-0B0F14?style=flat-square&logo=speedtest&logoColor=818cf8" alt="uv" /></a>
-        <a href="https://github.com/Sudharsana125"><img src="https://img.shields.io/badge/Git-0B0F14?style=flat-square&logo=git&logoColor=f59e0b" alt="Git" /></a>
-        <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-0B0F14?style=flat-square&logo=docker&logoColor=38bdf8" alt="Docker" /></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<br>
+
+<div align="center">
+
+<img src="./assets/tech_skills.svg" width="100%" alt="Tech Skills - Sudharsana K" />
+
+</div>
+
+<br>
 
 ---
 
