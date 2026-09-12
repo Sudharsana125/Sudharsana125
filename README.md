@@ -1,169 +1,147 @@
 <div align="center">
 
-<!-- Header Hero Banner -->
-<img src="./assets/header.svg" width="100%" alt="Sudharsana K - AI and Agentic AI Engineer" />
+<br>
 
-<br/>
+<p align="center">
+  <sub>Nice to meet you 👋</sub>
+</p>
 
-<!-- Featured Projects Header -->
-<a href="https://github.com/Sudharsana125?tab=repositories">
-  <img src="./assets/featured_header.svg" width="100%" alt="Featured Projects" />
-</a>
+# Sudharsana K
 
-<!-- Featured Projects (3-Column Layout) -->
-<table border="0" cellpadding="0" cellspacing="6" width="100%">
-  <tr>
-    <td width="33.3%" align="center" valign="top">
-      <a href="https://github.com/Sudharsana125/AgeisMesh_Multi-Agent_Crisis_Command_Center.">
-        <img src="./assets/project_aegismesh.svg" width="100%" alt="AegisMesh - Crisis Command Center" />
-      </a>
-    </td>
-    <td width="33.3%" align="center" valign="top">
-      <a href="https://github.com/Sudharsana125/Smart_Facility_Agents_Project">
-        <img src="./assets/project_facility.svg" width="100%" alt="Smart Facility Management Agents" />
-      </a>
-    </td>
-    <td width="33.3%" align="center" valign="top">
-      <a href="https://github.com/Sudharsana125/Intelligent-RAG-Chatbot">
-        <img src="./assets/project_rag.svg" width="100%" alt="Intelligent RAG System" />
-      </a>
-    </td>
-  </tr>
+<p align="center">
+  <strong>AI / Agentic AI Developer</strong>
+</p>
+
+<br>
+
+</div>
+
+---
+
+### 02 &nbsp;·&nbsp; TECH STACK
+
+<table>
+  <tbody>
+    <tr>
+      <td width="160" valign="top"><strong><code>LANGUAGES</code></strong></td>
+      <td valign="middle">
+        <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-0B0F14?style=flat-square&logo=python&logoColor=38bdf8" alt="Python" /></a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-0B0F14?style=flat-square&logo=javascript&logoColor=f59e0b" alt="JavaScript" /></a>
+        <a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/SQL-0B0F14?style=flat-square&logo=postgresql&logoColor=818cf8" alt="SQL" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td width="160" valign="top"><strong><code>AI / AGENTS</code></strong></td>
+      <td valign="middle">
+        <a href="https://www.crewai.com"><img src="https://img.shields.io/badge/CrewAI-0B0F14?style=flat-square&logo=target&logoColor=38bdf8" alt="CrewAI" /></a>
+        <a href="https://ai.google.dev"><img src="https://img.shields.io/badge/Google_Gemini-0B0F14?style=flat-square&logo=googlegemini&logoColor=818cf8" alt="Google Gemini" /></a>
+        <a href="https://openai.com"><img src="https://img.shields.io/badge/OpenAI_API-0B0F14?style=flat-square&logo=openai&logoColor=38bdf8" alt="OpenAI" /></a>
+        <a href="https://www.trychroma.com"><img src="https://img.shields.io/badge/ChromaDB-0B0F14?style=flat-square&logo=databricks&logoColor=4fd1c5" alt="ChromaDB" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td width="160" valign="top"><strong><code>FRAMEWORKS</code></strong></td>
+      <td valign="middle">
+        <a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-0B0F14?style=flat-square&logo=fastapi&logoColor=4fd1c5" alt="FastAPI" /></a>
+        <a href="https://flask.palletsprojects.com"><img src="https://img.shields.io/badge/Flask-0B0F14?style=flat-square&logo=flask&logoColor=94a3b8" alt="Flask" /></a>
+        <a href="https://streamlit.io"><img src="https://img.shields.io/badge/Streamlit-0B0F14?style=flat-square&logo=streamlit&logoColor=f43f5e" alt="Streamlit" /></a>
+      </td>
+    </tr>
+    <tr>
+      <td width="160" valign="top"><strong><code>TOOLS & RUNTIMES</code></strong></td>
+      <td valign="middle">
+        <a href="https://docs.astral.sh/uv"><img src="https://img.shields.io/badge/uv-0B0F14?style=flat-square&logo=speedtest&logoColor=818cf8" alt="uv" /></a>
+        <a href="https://git-scm.com"><img src="https://img.shields.io/badge/Git-0B0F14?style=flat-square&logo=git&logoColor=f59e0b" alt="Git" /></a>
+        <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-0B0F14?style=flat-square&logo=docker&logoColor=38bdf8" alt="Docker" /></a>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
-<br/>
+---
 
-<!-- Full-Width Tech Stack -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0">
-<tr><td align="center" style="background:#070a16;border-radius:16px;padding:24px 20px;border:1.5px solid #38bdf8;">
+### 03 &nbsp;·&nbsp; FEATURED PROJECTS
 
-<code>&lt;/&gt;</code>&nbsp;&nbsp;<strong><span style="color:#ffffff">Tech Stack</span> <span style="color:#38bdf8">&amp;</span> <span style="color:#c084fc">Architectures</span></strong>&nbsp;&nbsp;<code>SKILLS • TOOLS • SWARMS</code>
+<br>
 
-<br/><br/>
+#### `PROJECT 01` &nbsp;·&nbsp; **FLAGSHIP**
 
-<!-- ROW 1 -->
-<table width="100%" cellpadding="6" cellspacing="0" border="0">
-<tr valign="top">
+## [AegisMesh — Autonomous Multi-Agent Crisis Command Center](https://github.com/Sudharsana125/AgeisMesh_Multi-Agent_Crisis_Command_Center.)
 
-<!-- AGENTIC AI & SWARMS -->
-<td width="50%" align="center">
+> Autonomous multi-agent pipeline coordinating 12 specialized agents with adversarial critique to detect, triage, and resolve complex infrastructure failures in real time.
 
-**🤖 AGENTIC AI & SWARMS**
+`CrewAI` &nbsp;·&nbsp; `Google Gemini` &nbsp;·&nbsp; `FastAPI` &nbsp;·&nbsp; `Exa API` &nbsp;·&nbsp; `uv`
 
-<br/>
+[**Explore AegisMesh Architecture →**](https://github.com/Sudharsana125/AgeisMesh_Multi-Agent_Crisis_Command_Center.)
 
-<a href="https://crewai.com"><img src="https://img.shields.io/badge/CrewAI-EC4899?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iOCIgY3k9IjEyIiByPSI0IiBmaWxsPSJ3aGl0ZSIvPjxjaXJjbGUgY3g9IjE2IiBjeT0iOCIgcj0iMyIgZmlsbD0id2hpdGUiLz48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIzIiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==&logoColor=white" alt="CrewAI"/></a>
-<a href="https://langchain-ai.github.io/langgraph/"><img src="https://img.shields.io/badge/LangGraph-6366F1?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBvbHlnb24gcG9pbnRzPSIxMiwyIDIyLDIwIDIsMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==&logoColor=white" alt="LangGraph"/></a>
-<a href="https://www.langchain.com/"><img src="https://img.shields.io/badge/LangChain-0284C7?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/></a>
+<br>
 
-<br/>
+---
 
-<a href="https://n8n.io/"><img src="https://img.shields.io/badge/n8n-E11D48?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/></a>
-<a href="https://flowiseai.com/"><img src="https://img.shields.io/badge/Flowise-06B6D4?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTMgMTJjMyAtMyA2IDMgOSAwczYgMCA5IDAiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMi41IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=&logoColor=white" alt="Flowise"/></a>
-<img src="https://img.shields.io/badge/Agent_Swarms-10B981?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjMiIGZpbGw9IndoaXRlIi8+PGNpcmNsZSBjeD0iMTgiIGN5PSI2IiByPSIzIiBmaWxsPSJ3aGl0ZSIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTgiIHI9IjMiIGZpbGw9IndoaXRlIi8+PGxpbmUgeDE9IjYiIHkxPSI2IiB4Mj0iMTIiIHkyPSIxOCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48bGluZSB4MT0iMTgiIHkxPSI2IiB4Mj0iMTIiIHkyPSIxOCIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiLz48bGluZSB4MT0iNiIgeTE9IjYiIHgyPSIxOCIgeTI9IjYiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41Ii8+PC9zdmc+&logoColor=white" alt="Agent Swarms"/>
+<br>
 
-</td>
+#### `PROJECT 02`
 
-<!-- AI / ML & HYBRID RAG -->
-<td width="50%" align="center">
+### [AI Debate Arena — Multi-Agent Decision Engine](https://github.com/Sudharsana125/AI-Debate-Arena)
 
-**🧠 AI / ML & HYBRID RAG**
+> Dialectical decision-support system pitting specialized Pro, Contra, Risk, and Judicial agents in structured debate to surface balanced, low-bias reasoning.
 
-<br/>
+`Google Gemini` &nbsp;·&nbsp; `Multi-Agent Reasoning` &nbsp;·&nbsp; `Flask` &nbsp;·&nbsp; `Python`
 
-<a href="https://deepmind.google/technologies/gemini/"><img src="https://img.shields.io/badge/Gemini%20%2F%20LLMs-2563EB?style=for-the-badge&logo=google&logoColor=white" alt="Gemini LLMs"/></a>
-<img src="https://img.shields.io/badge/Hybrid_RAG-C026D3?style=for-the-badge&logo=databricks&logoColor=white" alt="Hybrid RAG"/>
-<a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/></a>
+[**View Debate Engine →**](https://github.com/Sudharsana125/AI-Debate-Arena)
 
-<br/>
+<br>
 
-<img src="https://img.shields.io/badge/NLP_%26_Embeddings-0D9488?style=for-the-badge&logo=huggingface&logoColor=white" alt="NLP Embeddings"/>
-<img src="https://img.shields.io/badge/Agent_Evals-D97706?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Agent Evals"/>
-<a href="https://www.pinecone.io/"><img src="https://img.shields.io/badge/Vector_DBs-0EA5E9?style=for-the-badge&logo=pinecone&logoColor=white" alt="Vector DBs"/></a>
+---
 
-</td>
-</tr>
-</table>
+<br>
 
-<br/>
+#### `PROJECT 03`
 
-<!-- ROW 2 -->
-<table width="100%" cellpadding="6" cellspacing="0" border="0">
-<tr valign="top">
+### [Smart Facility AI Hub — IoT Telemetry & Agent Dispatch](https://github.com/Sudharsana125/Smart_Facility_Agents_Project)
 
-<!-- LANGUAGES -->
-<td width="25%" align="center">
+> Facility intelligence platform streaming real-time IoT telemetry to autonomous agents for anomaly mitigation, dynamic sentiment triage, and thermal energy optimization.
 
-**💛 LANGUAGES**
+`Autonomous Agents` &nbsp;·&nbsp; `IoT Telemetry` &nbsp;·&nbsp; `Python` &nbsp;·&nbsp; `JavaScript`
 
-<br/>
+[**Review Facility Hub →**](https://github.com/Sudharsana125/Smart_Facility_Agents_Project)
 
-<a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/></a>
+<br>
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+---
 
-<img src="https://img.shields.io/badge/SQL_%26_Bash-D97706?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="SQL Bash"/>
+### 04 &nbsp;·&nbsp; GITHUB STATUS
 
-</td>
+<br>
 
-<!-- DATABASES -->
-<td width="25%" align="center">
+<div align="center">
 
-**🟢 DATABASES**
+[![Sudharsana's GitHub Activity](https://ghchart.rshah.org/38bdf8/Sudharsana125)](https://github.com/Sudharsana125)
 
-<br/>
+<br>
 
-<a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/></a>
+<sub>Live GitHub contribution telemetry &nbsp;·&nbsp; Focus: Autonomous Agent Architectures, Multi-Agent Systems & GenAI Pipelines</sub>
 
-<a href="https://www.mongodb.com"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/></a>
+</div>
 
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+<br>
 
-</td>
+---
 
-<!-- CLOUD & API -->
-<td width="25%" align="center">
+<br>
 
-**☁️ CLOUD & API**
+<div align="center">
 
-<br/>
+### Let's build something useful.
 
-<a href="https://fastapi.tiangolo.com"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/></a>
+<br>
 
-<a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/></a>
+<a href="https://github.com/Sudharsana125"><img src="https://img.shields.io/badge/GitHub-Sudharsana125-0B0F14?style=flat-square&logo=github&logoColor=94a3b8" alt="GitHub" /></a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/sudharsana-k/"><img src="https://img.shields.io/badge/LinkedIn-Sudharsana_K-0B0F14?style=flat-square&logo=linkedin&logoColor=38bdf8" alt="LinkedIn" /></a>
+&nbsp;&nbsp;
+<a href="mailto:sudharsanak13@gmail.com"><img src="https://img.shields.io/badge/Email-sudharsanak13@gmail.com-0B0F14?style=flat-square&logo=gmail&logoColor=f59e0b" alt="Email" /></a>
 
-<a href="https://aws.amazon.com"><img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS"/></a>
-
-</td>
-
-<!-- DEV TOOLS -->
-<td width="25%" align="center">
-
-**🛠️ DEV TOOLS**
-
-<br/>
-
-<a href="https://github.com/Sudharsana125"><img src="https://img.shields.io/badge/Git_%26_GitHub-F05032?style=for-the-badge&logo=github&logoColor=white" alt="Git GitHub"/></a>
-
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-
-<img src="https://img.shields.io/badge/Notion_%26_Figma-EC4899?style=for-the-badge&logo=figma&logoColor=white" alt="Notion Figma"/>
-
-</td>
-</tr>
-</table>
-
-</td></tr>
-</table>
-
-<br/>
-
-<!-- Full-Width Open Terminal & Connect Console -->
-<img src="./assets/terminal_console.svg" width="100%" alt="Terminal &amp; Connect Console" />
-
-<br/>
-
-<!-- Footer -->
-<img src="./assets/footer.svg" width="100%" alt="Ideas -> Agents -> Impact" />
+<br>
 
 </div>
