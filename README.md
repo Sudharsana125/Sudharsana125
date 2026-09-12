@@ -154,11 +154,15 @@
 
 <div align="center">
 
-[![Sudharsana's GitHub Activity](https://ghchart.rshah.org/38bdf8/Sudharsana125)](https://github.com/Sudharsana125)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sudharsana125/Sudharsana125/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sudharsana125/Sudharsana125/output/github-contribution-grid-snake.svg" />
+  <img alt="Sudharsana's GitHub Contribution Snake" src="https://raw.githubusercontent.com/Sudharsana125/Sudharsana125/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
 
 <br>
 
-<sub>Live GitHub contribution telemetry &nbsp;·&nbsp; Focus: Autonomous Agent Architectures, Multi-Agent Systems & GenAI Pipelines</sub>
+<sub>Live contribution grid with moving snake animation &nbsp;·&nbsp; Autonomous Agent Architectures & Multi-Agent Pipelines</sub>
 
 </div>
 
