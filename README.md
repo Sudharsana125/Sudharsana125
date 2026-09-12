@@ -2,18 +2,6 @@
 
 <img src="./assets/header.svg" width="100%" alt="Sudharsana K - AI &amp; Agentic AI Developer" />
 
-</div>
-
-<br>
-
----
-
-### 02 &nbsp;·&nbsp; TECH STACK
-
-<br>
-
-<div align="center">
-
 <img src="./assets/tech_skills.svg" width="100%" alt="Tech Skills - Sudharsana K" />
 
 </div>
