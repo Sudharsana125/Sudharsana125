@@ -66,11 +66,6 @@
     <text x="135" y="4" font-size="11" fill="#475569" class="mono">//</text>
     <text x="155" y="4" font-size="11" font-weight="500" fill="#94a3b8" letter-spacing="1.5" class="mono">AGENTIC ARCHITECTURE &amp; AUTONOMOUS SYSTEMS</text>
     
-    <!-- Right HUD Pill -->
-    <g transform="translate(770, -10)">
-      <rect x="0" y="0" width="150" height="22" rx="11" fill="#0b1528" stroke="#1e3a8a" stroke-width="1" />
-      <text x="75" y="15" font-size="10" font-weight="700" fill="#7dd3fc" letter-spacing="1" text-anchor="middle" class="mono">STATUS: AVAILABLE</text>
-    </g>
   </g>
 
   <!-- Fine Divider -->
@@ -91,18 +86,5 @@
     <text x="0" y="78" font-size="15" font-weight="600" fill="#94a3b8" class="sans">
       AI / Agentic AI Developer <tspan fill="#64748b">|</tspan> <tspan fill="#cbd5e1">Building Multi-Agent Swarms &amp; Intelligent Workflows</tspan>
     </text>
-
-    <!-- Live Quick Specs on the right -->
-    <g transform="translate(620, -10)">
-      <!-- Box 1 -->
-      <rect x="0" y="0" width="145" height="42" rx="8" fill="#091224" stroke="#1e293b" stroke-width="1" />
-      <text x="16" y="18" font-size="10" font-weight="600" fill="#64748b" class="mono">CORE RUNTIME</text>
-      <text x="16" y="34" font-size="12" font-weight="700" fill="#38bdf8" class="sans">CrewAI + Gemini</text>
-
-      <!-- Box 2 -->
-      <rect x="155" y="0" width="145" height="42" rx="8" fill="#091224" stroke="#1e293b" stroke-width="1" />
-      <text x="171" y="18" font-size="10" font-weight="600" fill="#64748b" class="mono">METHODOLOGY</text>
-      <text x="171" y="34" font-size="12" font-weight="700" fill="#a78bfa" class="sans">Adversarial Agents</text>
-    </g>
   </g>
 </svg>
