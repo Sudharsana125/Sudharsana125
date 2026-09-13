@@ -6,9 +6,9 @@
     </linearGradient>
 
     <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#1e293b" />
+      <stop offset="0%" stop-color="#111111" />
+      <stop offset="50%" stop-color="#e2e8f0" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#111111" />
     </linearGradient>
   </defs>
 
@@ -44,13 +44,13 @@
     <text x="0" y="19" fill="#a855f7">$</text>
     <text x="14" y="19" fill="#94a3b8">domain</text>
     <text x="100" y="19" fill="#64748b">→</text>
-    <text x="124" y="19" fill="#38bdf8" font-weight="600">AI / ML / Agentic AI</text>
+    <text x="124" y="19" fill="#e2e8f0" font-weight="600">AI / ML / Agentic AI</text>
 
     <!-- Line 3: mission -->
     <text x="0" y="38" fill="#a855f7">$</text>
     <text x="14" y="38" fill="#94a3b8">mission</text>
     <text x="100" y="38" fill="#64748b">→</text>
-    <text x="124" y="38" fill="#cbd5e1"><tspan fill="#60a5fa">Ideas</tspan> → <tspan fill="#38bdf8">Agents</tspan> → <tspan fill="#34d399">Impact</tspan></text>
+    <text x="124" y="38" fill="#cbd5e1"><tspan fill="#e2e8f0">Ideas</tspan> → <tspan fill="#e2e8f0">Agents</tspan> → <tspan fill="#34d399">Impact</tspan></text>
 
     <!-- Line 4: status -->
     <text x="0" y="57" fill="#a855f7">$</text>

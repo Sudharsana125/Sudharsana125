@@ -2,21 +2,21 @@
   <defs>
     <!-- Background & Ambient Light -->
     <linearGradient id="hdrBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050811" />
+      <stop offset="0%" stop-color="#000000" />
       <stop offset="50%" stop-color="#080e1d" />
       <stop offset="100%" stop-color="#060a14" />
     </linearGradient>
 
     <!-- Subtle Animated Border Gradient -->
     <linearGradient id="animatedBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="30%" stop-color="#38bdf8">
-        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#38bdf8" dur="4s" repeatCount="indefinite" />
+      <stop offset="0%" stop-color="#111111" />
+      <stop offset="30%" stop-color="#e2e8f0">
+        <animate attributeName="stop-color" values="#e2e8f0;#e2e8f0;#e2e8f0" dur="4s" repeatCount="indefinite" />
       </stop>
-      <stop offset="70%" stop-color="#818cf8">
-        <animate attributeName="stop-color" values="#818cf8;#38bdf8;#818cf8" dur="4s" repeatCount="indefinite" />
+      <stop offset="70%" stop-color="#e2e8f0">
+        <animate attributeName="stop-color" values="#e2e8f0;#e2e8f0;#e2e8f0" dur="4s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#111111" />
     </linearGradient>
 
     <!-- Ambient Glow Filter -->
@@ -26,7 +26,7 @@
 
     <!-- Fine Matrix Dots -->
     <pattern id="hdrDots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="12" cy="12" r="0.75" fill="#334155" fill-opacity="0.35" />
+      <circle cx="12" cy="12" r="0.75" fill="#222222" fill-opacity="0.35" />
     </pattern>
   </defs>
 
@@ -47,7 +47,7 @@
   <rect x="2" y="2" width="996" height="206" rx="14" fill="url(#hdrDots)" />
 
   <!-- Ambient Backdrop Lights -->
-  <circle cx="360" cy="105" r="130" fill="#0284c7" fill-opacity="0.12" filter="url(#ambientBlur)" />
+  <circle cx="360" cy="105" r="130" fill="#94a3b8" fill-opacity="0.12" filter="url(#ambientBlur)" />
   <circle cx="640" cy="105" r="130" fill="#6366f1" fill-opacity="0.1" filter="url(#ambientBlur)" />
 
   <!-- WAVING ROBOT ON THE LEFT (Far to the left, no overlap possible) -->
@@ -59,7 +59,7 @@
   <g>
     <!-- Name: Dead-center at x=500 -->
     <text x="500" y="102" text-anchor="middle" font-size="48" font-weight="900" letter-spacing="2" fill="#ffffff" class="sans">
-      SUDHARSANA <tspan fill="#38bdf8">K</tspan>
+      SUDHARSANA <tspan fill="#e2e8f0">K</tspan>
     </text>
 
     <!-- Nice to meet you: Dead-center at x=500 -->
