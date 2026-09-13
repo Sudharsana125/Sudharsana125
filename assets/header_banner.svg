@@ -3,8 +3,8 @@
     <!-- Dark Obsidian Background -->
     <linearGradient id="bgObsidian" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#000000" />
-      <stop offset="45%" stop-color="#080808" />
-      <stop offset="100%" stop-color="#050505" />
+      <stop offset="45%" stop-color="#080e1d" />
+      <stop offset="100%" stop-color="#060914" />
     </linearGradient>
 
     <!-- Animated Glowing Border -->
@@ -57,7 +57,7 @@
 
   <!-- Ambient Blue Ambient Glows -->
   <circle cx="270" cy="115" r="110" fill="#94a3b8" fill-opacity="0.18" filter="url(#ambientLight)" />
-  <circle cx="620" cy="110" r="120" fill="#e2e8f0" fill-opacity="0.12" filter="url(#ambientLight)" />
+  <circle cx="620" cy="110" r="120" fill="#6366f1" fill-opacity="0.12" filter="url(#ambientLight)" />
 
   <!-- CENTERED COMPOSITION GROUP -->
   <!-- Left margin ~205px, right margin ~210px -->

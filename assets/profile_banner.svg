@@ -3,8 +3,8 @@
     <!-- Background & Ambient Light -->
     <linearGradient id="hdrBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#000000" />
-      <stop offset="50%" stop-color="#080808" />
-      <stop offset="100%" stop-color="#060606" />
+      <stop offset="50%" stop-color="#080e1d" />
+      <stop offset="100%" stop-color="#060a14" />
     </linearGradient>
 
     <!-- Subtle Animated Border Gradient -->
@@ -48,7 +48,7 @@
 
   <!-- Ambient Backdrop Lights -->
   <circle cx="360" cy="105" r="130" fill="#94a3b8" fill-opacity="0.12" filter="url(#ambientBlur)" />
-  <circle cx="640" cy="105" r="130" fill="#e2e8f0" fill-opacity="0.1" filter="url(#ambientBlur)" />
+  <circle cx="640" cy="105" r="130" fill="#6366f1" fill-opacity="0.1" filter="url(#ambientBlur)" />
 
   <!-- 100% CENTERED NAME & SUBTITLE -->
   <g>

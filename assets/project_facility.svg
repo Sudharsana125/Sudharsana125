@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" width="100%" height="100%">
   <defs>
     <linearGradient id="cardBgFacility" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#070707" />
-      <stop offset="50%" stop-color="#0a0a0a" />
-      <stop offset="100%" stop-color="#040404" />
+      <stop offset="0%" stop-color="#061512" />
+      <stop offset="50%" stop-color="#081c18" />
+      <stop offset="100%" stop-color="#040d0a" />
     </linearGradient>
 
     <linearGradient id="cardBorderFacility" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2d2d2d" />
-      <stop offset="40%" stop-color="#94a3b8" stop-opacity="0.9" />
-      <stop offset="80%" stop-color="#e2e8f0" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#2d2d2d" />
+      <stop offset="0%" stop-color="#134e4a" />
+      <stop offset="40%" stop-color="#10b981" stop-opacity="0.9" />
+      <stop offset="80%" stop-color="#34d399" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#134e4a" />
     </linearGradient>
 
     <linearGradient id="bldgLeftGreen" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#94a3b8" />
-      <stop offset="100%" stop-color="#2d2d2d" />
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#065f46" />
     </linearGradient>
 
     <linearGradient id="bldgRightGreen" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#383838" />
-      <stop offset="100%" stop-color="#262626" />
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064e3b" />
     </linearGradient>
 
     <linearGradient id="bldgTopGreen" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#e2e8f0" />
-      <stop offset="100%" stop-color="#94a3b8" />
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
     </linearGradient>
 
     <filter id="glowEmerald" x="-40%" y="-40%" width="180%" height="180%">
@@ -44,32 +44,32 @@
 
   <!-- Top Controls -->
   <!-- 02 Badge (Emerald) -->
-  <rect x="18" y="16" width="34" height="22" rx="6" fill="#0e0e0e" stroke="#94a3b8" stroke-width="1" />
-  <text x="35" y="31" font-size="11" font-weight="700" fill="#e2e8f0" text-anchor="middle" class="mono">02</text>
+  <rect x="18" y="16" width="34" height="22" rx="6" fill="#062e24" stroke="#059669" stroke-width="1" />
+  <text x="35" y="31" font-size="11" font-weight="700" fill="#34d399" text-anchor="middle" class="mono">02</text>
 
   <!-- Arrow Circle Icon -->
-  <circle cx="286" cy="27" r="13" fill="#0e0e0e" stroke="#383838" stroke-width="1" />
-  <path d="M282 31L290 23M290 23H284M290 23V29" stroke="#e2e8f0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="286" cy="27" r="13" fill="#062e24" stroke="#047857" stroke-width="1" />
+  <path d="M282 31L290 23M290 23H284M290 23V29" stroke="#6ee7b7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 
   <!-- Isometric Smart Facility Illustration (Emerald Green) -->
   <g transform="translate(160, 105)">
     <!-- Ambient Aura -->
-    <ellipse cx="0" cy="25" rx="55" ry="25" fill="#94a3b8" fill-opacity="0.22" filter="url(#glowEmerald)" />
+    <ellipse cx="0" cy="25" rx="55" ry="25" fill="#10b981" fill-opacity="0.22" filter="url(#glowEmerald)" />
 
     <!-- Isometric Ground Platform -->
-    <polygon points="0,-12 60,18 0,48 -60,18" fill="#0d0d0d" stroke="#94a3b8" stroke-width="1.2" />
-    <polygon points="-60,18 0,48 0,54 -60,24" fill="#262626" fill-opacity="0.8" />
-    <polygon points="0,48 60,18 60,24 0,54" fill="#383838" fill-opacity="0.6" />
+    <polygon points="0,-12 60,18 0,48 -60,18" fill="#0a261f" stroke="#10b981" stroke-width="1.2" />
+    <polygon points="-60,18 0,48 0,54 -60,24" fill="#064e3b" fill-opacity="0.8" />
+    <polygon points="0,48 60,18 60,24 0,54" fill="#047857" fill-opacity="0.6" />
 
     <!-- Sub-building Left -->
     <g transform="translate(-25, 4)">
       <polygon points="0,-18 16,-10 0,-2 -16,-10" fill="url(#bldgTopGreen)" />
       <polygon points="-16,-10 0,-2 0,16 -16,8" fill="url(#bldgLeftGreen)" />
       <polygon points="0,-2 16,-10 16,8 0,16" fill="url(#bldgRightGreen)" />
-      <circle cx="-8" cy="2" r="1" fill="#e2e8f0" />
-      <circle cx="-8" cy="7" r="1" fill="#e2e8f0" />
-      <circle cx="8" cy="-1" r="1" fill="#e2e8f0" />
-      <circle cx="8" cy="4" r="1" fill="#e2e8f0" />
+      <circle cx="-8" cy="2" r="1" fill="#a7f3d0" />
+      <circle cx="-8" cy="7" r="1" fill="#a7f3d0" />
+      <circle cx="8" cy="-1" r="1" fill="#a7f3d0" />
+      <circle cx="8" cy="4" r="1" fill="#a7f3d0" />
     </g>
 
     <!-- Sub-building Right -->
@@ -77,10 +77,10 @@
       <polygon points="0,-18 16,-10 0,-2 -16,-10" fill="url(#bldgTopGreen)" />
       <polygon points="-16,-10 0,-2 0,16 -16,8" fill="url(#bldgLeftGreen)" />
       <polygon points="0,-2 16,-10 16,8 0,16" fill="url(#bldgRightGreen)" />
-      <circle cx="-8" cy="2" r="1" fill="#e2e8f0" />
-      <circle cx="-8" cy="7" r="1" fill="#e2e8f0" />
-      <circle cx="8" cy="-1" r="1" fill="#e2e8f0" />
-      <circle cx="8" cy="4" r="1" fill="#e2e8f0" />
+      <circle cx="-8" cy="2" r="1" fill="#a7f3d0" />
+      <circle cx="-8" cy="7" r="1" fill="#a7f3d0" />
+      <circle cx="8" cy="-1" r="1" fill="#a7f3d0" />
+      <circle cx="8" cy="4" r="1" fill="#a7f3d0" />
     </g>
 
     <!-- Center Main Tower -->
@@ -90,7 +90,7 @@
       <polygon points="0,-12 24,-24 24,14 0,26" fill="url(#bldgRightGreen)" />
 
       <!-- Center Grid Windows -->
-      <g fill="#e2e8f0" opacity="0.95">
+      <g fill="#a7f3d0" opacity="0.95">
         <circle cx="-16" cy="-4" r="1" />
         <circle cx="-16" cy="1" r="1" />
         <circle cx="-16" cy="6" r="1" />
@@ -106,18 +106,18 @@
       </g>
 
       <!-- Roof Sensor Antenna -->
-      <line x1="0" y1="-36" x2="0" y2="-48" stroke="#e2e8f0" stroke-width="1.8" />
-      <circle cx="0" cy="-49" r="3" fill="#e2e8f0" filter="url(#glowEmerald)" />
+      <line x1="0" y1="-36" x2="0" y2="-48" stroke="#34d399" stroke-width="1.8" />
+      <circle cx="0" cy="-49" r="3" fill="#6ee7b7" filter="url(#glowEmerald)" />
     </g>
 
     <!-- Floating Sensor Beacons -->
     <g transform="translate(-40, -15)">
-      <circle cx="0" cy="0" r="7" fill="#383838" stroke="#e2e8f0" stroke-width="1" />
-      <path d="M-2 -3 L1 0 L-1 0 L2 3" stroke="#e2e8f0" stroke-width="1.2" fill="none" />
+      <circle cx="0" cy="0" r="7" fill="#047857" stroke="#34d399" stroke-width="1" />
+      <path d="M-2 -3 L1 0 L-1 0 L2 3" stroke="#a7f3d0" stroke-width="1.2" fill="none" />
     </g>
     <g transform="translate(42, -15)">
-      <circle cx="0" cy="0" r="7" fill="#383838" stroke="#e2e8f0" stroke-width="1" />
-      <circle cx="0" cy="0" r="3" fill="#e2e8f0" />
+      <circle cx="0" cy="0" r="7" fill="#047857" stroke="#34d399" stroke-width="1" />
+      <circle cx="0" cy="0" r="3" fill="#6ee7b7" />
     </g>
   </g>
 
@@ -125,25 +125,25 @@
   <text x="20" y="196" font-size="20" font-weight="800" fill="#ffffff" class="sans">Smart Facility Management</text>
 
   <!-- Description -->
-  <text x="20" y="222" font-size="12" fill="#e2e8f0" class="sans">AI-driven facility management system for</text>
+  <text x="20" y="222" font-size="12" fill="#a7f3d0" class="sans">AI-driven facility management system for</text>
   <text x="20" y="240" font-size="12" fill="#94a3b8" class="sans">monitoring, predicting and optimizing</text>
   <text x="20" y="258" font-size="12" fill="#94a3b8" class="sans">operations in real-time.</text>
 
   <!-- Tags Row (Emerald) -->
   <g transform="translate(18, 304)">
-    <rect x="0" y="0" width="58" height="26" rx="6" fill="#0e0e0e" stroke="#94a3b8" stroke-width="1" />
-    <text x="29" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">Python</text>
+    <rect x="0" y="0" width="58" height="26" rx="6" fill="#062e24" stroke="#059669" stroke-width="1" />
+    <text x="29" y="17" font-size="11" font-weight="600" fill="#34d399" text-anchor="middle" class="sans">Python</text>
 
-    <rect x="64" y="0" width="38" height="26" rx="6" fill="#0e0e0e" stroke="#94a3b8" stroke-width="1" />
-    <text x="83" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">ML</text>
+    <rect x="64" y="0" width="38" height="26" rx="6" fill="#062e24" stroke="#059669" stroke-width="1" />
+    <text x="83" y="17" font-size="11" font-weight="600" fill="#34d399" text-anchor="middle" class="sans">ML</text>
 
-    <rect x="108" y="0" width="42" height="26" rx="6" fill="#0e0e0e" stroke="#94a3b8" stroke-width="1" />
-    <text x="129" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">IoT</text>
+    <rect x="108" y="0" width="42" height="26" rx="6" fill="#062e24" stroke="#059669" stroke-width="1" />
+    <text x="129" y="17" font-size="11" font-weight="600" fill="#34d399" text-anchor="middle" class="sans">IoT</text>
 
-    <rect x="156" y="0" width="76" height="26" rx="6" fill="#0e0e0e" stroke="#94a3b8" stroke-width="1" />
-    <text x="194" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">Telemetry</text>
+    <rect x="156" y="0" width="76" height="26" rx="6" fill="#062e24" stroke="#059669" stroke-width="1" />
+    <text x="194" y="17" font-size="11" font-weight="600" fill="#34d399" text-anchor="middle" class="sans">Telemetry</text>
 
-    <rect x="238" y="0" width="60" height="26" rx="6" fill="#0e0e0e" stroke="#94a3b8" stroke-width="1" />
-    <text x="268" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">CrewAI</text>
+    <rect x="238" y="0" width="60" height="26" rx="6" fill="#062e24" stroke="#059669" stroke-width="1" />
+    <text x="268" y="17" font-size="11" font-weight="600" fill="#34d399" text-anchor="middle" class="sans">CrewAI</text>
   </g>
 </svg>
