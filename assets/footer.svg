@@ -19,13 +19,13 @@
 
   <!-- Left: Progress dots and bar -->
   <g transform="translate(30, 22)">
-    <line x1="0" y1="0" x2="60" y2="0" stroke="#080808" stroke-width="2" stroke-linecap="round" />
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#111111" stroke-width="2" stroke-linecap="round" />
     <line x1="0" y1="0" x2="35" y2="0" stroke="#e2e8f0" stroke-width="2" stroke-linecap="round" />
     <circle cx="75" cy="0" r="1.5" fill="#e2e8f0" />
     <circle cx="85" cy="0" r="1.5" fill="#e2e8f0" />
     <circle cx="95" cy="0" r="1.5" fill="#e2e8f0" />
-    <circle cx="105" cy="0" r="1.5" fill="#080808" />
-    <circle cx="115" cy="0" r="1.5" fill="#080808" />
+    <circle cx="105" cy="0" r="1.5" fill="#111111" />
+    <circle cx="115" cy="0" r="1.5" fill="#111111" />
   </g>
 
   <!-- Center: Flow text -->
@@ -37,7 +37,7 @@
 
   <!-- Right: Monospace tagline -->
   <g transform="translate(970, 26)">
-    <text x="0" y="0" font-size="10.5" font-weight="600" letter-spacing="1" fill="#e2e8f0" text-anchor="end" class="mono">
+    <text x="0" y="0" font-size="10.5" font-weight="600" letter-spacing="1" fill="#94a3b8" text-anchor="end" class="mono">
       &lt; A CURIOUS MIND FOR A BRIGHTER TOMORROW /&gt;
     </text>
   </g>

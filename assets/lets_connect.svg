@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 520 140" width="100%" height="100%">
   <defs>
     <linearGradient id="connectBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#050505" />
-      <stop offset="100%" stop-color="#030303" />
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#060606" />
     </linearGradient>
 
     <linearGradient id="connectBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#080808" />
+      <stop offset="0%" stop-color="#111111" />
       <stop offset="30%" stop-color="#e2e8f0" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#080808" />
+      <stop offset="100%" stop-color="#111111" />
     </linearGradient>
 
     <linearGradient id="btnBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#020202" />
-      <stop offset="100%" stop-color="#050505" />
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="100%" stop-color="#0b0b0b" />
     </linearGradient>
   </defs>
 
@@ -28,36 +28,36 @@
   <!-- Section Header -->
   <g transform="translate(20, 28)">
     <path d="M0 8 L12 0 L6 14 L4 9 Z" fill="#e2e8f0" />
-    <text x="24" y="6" font-size="16" font-weight="800" fill="#e2e8f0" class="sans">Let's Connect</text>
+    <text x="24" y="6" font-size="16" font-weight="800" fill="#f8fafc" class="sans">Let's Connect</text>
   </g>
 
   <!-- Buttons Row -->
   <g transform="translate(20, 58)">
     <!-- LinkedIn Button -->
     <a xlink:href="https://www.linkedin.com/in/sudharsanak" target="_blank">
-      <rect x="0" y="0" width="150" height="50" rx="10" fill="url(#btnBg)" stroke="#2a2a2a" stroke-width="1.2" />
-      <rect x="16" y="13" width="24" height="24" rx="5" fill="#404040" />
-      <text x="28" y="30" font-size="14" font-weight="900" fill="#e2e8f0" text-anchor="middle" class="sans">in</text>
-      <text x="90" y="31" font-size="14" font-weight="600" fill="#e2e8f0" class="sans">LinkedIn</text>
+      <rect x="0" y="0" width="150" height="50" rx="10" fill="url(#btnBg)" stroke="#353535" stroke-width="1.2" />
+      <rect x="16" y="13" width="24" height="24" rx="5" fill="#505050" />
+      <text x="28" y="30" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" class="sans">in</text>
+      <text x="90" y="31" font-size="14" font-weight="600" fill="#f8fafc" class="sans">LinkedIn</text>
     </a>
 
     <!-- GitHub Button -->
     <a xlink:href="https://github.com/Sudharsana125" target="_blank">
-      <rect x="162" y="0" width="150" height="50" rx="10" fill="url(#btnBg)" stroke="#1b1b1b" stroke-width="1.2" />
+      <rect x="162" y="0" width="150" height="50" rx="10" fill="url(#btnBg)" stroke="#222222" stroke-width="1.2" />
       <g transform="translate(178, 13) scale(0.75)">
-        <path fill="#e2e8f0" fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+        <path fill="#ffffff" fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
       </g>
-      <text x="252" y="31" font-size="14" font-weight="600" fill="#e2e8f0" class="sans">GitHub</text>
+      <text x="252" y="31" font-size="14" font-weight="600" fill="#f8fafc" class="sans">GitHub</text>
     </a>
 
     <!-- Email Button -->
     <a xlink:href="mailto:sudharsanak13@gmail.com">
-      <rect x="324" y="0" width="150" height="50" rx="10" fill="url(#btnBg)" stroke="#3a3a3a" stroke-width="1.2" />
+      <rect x="324" y="0" width="150" height="50" rx="10" fill="url(#btnBg)" stroke="#494949" stroke-width="1.2" />
       <g transform="translate(340, 15)">
         <rect x="0" y="0" width="22" height="16" rx="3" fill="none" stroke="#e2e8f0" stroke-width="1.8" />
         <path d="M0 2 L11 9 L22 2" fill="none" stroke="#e2e8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
       </g>
-      <text x="414" y="31" font-size="14" font-weight="600" fill="#e2e8f0" class="sans">Email</text>
+      <text x="414" y="31" font-size="14" font-weight="600" fill="#f8fafc" class="sans">Email</text>
     </a>
   </g>
 </svg>

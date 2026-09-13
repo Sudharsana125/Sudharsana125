@@ -2,23 +2,23 @@
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="cardFocusBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#040404" />
-      <stop offset="50%" stop-color="#050505" />
-      <stop offset="100%" stop-color="#020202" />
+      <stop offset="0%" stop-color="#080808" />
+      <stop offset="50%" stop-color="#0b0b0b" />
+      <stop offset="100%" stop-color="#050505" />
     </linearGradient>
 
     <!-- Border Gradient -->
     <linearGradient id="cardFocusBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080808" />
+      <stop offset="0%" stop-color="#111111" />
       <stop offset="35%" stop-color="#e2e8f0" stop-opacity="0.8" />
       <stop offset="70%" stop-color="#e2e8f0" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#080808" />
+      <stop offset="100%" stop-color="#111111" />
     </linearGradient>
 
     <!-- Row Background -->
     <linearGradient id="rowBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#060606" />
-      <stop offset="100%" stop-color="#050505" />
+      <stop offset="0%" stop-color="#0d0d0d" />
+      <stop offset="100%" stop-color="#0b0b0b" />
     </linearGradient>
 
     <!-- Glow Filter -->
@@ -41,29 +41,29 @@
     <!-- Radar / Target Icon -->
     <circle cx="10" cy="-4" r="9" fill="none" stroke="#e2e8f0" stroke-width="1.8" />
     <circle cx="10" cy="-4" r="4.5" fill="#e2e8f0" />
-    <circle cx="10" cy="-4" r="1.5" fill="#e2e8f0" />
+    <circle cx="10" cy="-4" r="1.5" fill="#ffffff" />
 
     <!-- Title -->
-    <text x="30" y="2" font-size="16" font-weight="800" fill="#e2e8f0" class="sans">Active Engineering Focus</text>
+    <text x="30" y="2" font-size="16" font-weight="800" fill="#f8fafc" class="sans">Active Engineering Focus</text>
 
     <!-- Active Badge -->
     <g transform="translate(325, -13)">
-      <rect x="0" y="0" width="94" height="24" rx="12" fill="#080808" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="0" y="0" width="94" height="24" rx="12" fill="#101010" stroke="#94a3b8" stroke-width="1" />
       <circle cx="12" cy="12" r="3.5" fill="#e2e8f0" filter="url(#focusGlow)" />
       <text x="22" y="16" font-size="10" font-weight="700" fill="#e2e8f0" class="mono">ACTIVE</text>
     </g>
   </g>
 
   <!-- Divider Line -->
-  <line x1="24" y1="52" x2="446" y2="52" stroke="#080808" stroke-width="1" />
+  <line x1="24" y1="52" x2="446" y2="52" stroke="#111111" stroke-width="1" />
 
   <!-- ITEM 1: MULTI-AGENT SYSTEMS -->
   <g transform="translate(24, 68)">
-    <rect x="0" y="0" width="422" height="64" rx="10" fill="url(#rowBg)" stroke="#080808" stroke-width="1" />
+    <rect x="0" y="0" width="422" height="64" rx="10" fill="url(#rowBg)" stroke="#111111" stroke-width="1" />
     
     <!-- Icon: Agent Network -->
     <g transform="translate(14, 15)">
-      <rect x="0" y="0" width="34" height="34" rx="8" fill="#0a0a0a" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#141414" stroke="#e2e8f0" stroke-width="1" />
       <circle cx="17" cy="11" r="3" fill="#e2e8f0" />
       <circle cx="10" cy="23" r="2.5" fill="#e2e8f0" />
       <circle cx="24" cy="23" r="2.5" fill="#e2e8f0" />
@@ -73,69 +73,69 @@
 
     <!-- Text Info -->
     <text x="60" y="24" font-size="13.5" font-weight="700" fill="#e2e8f0" class="sans">Multi-Agent Swarm Orchestration</text>
-    <text x="60" y="44" font-size="11" fill="#e2e8f0" class="sans">Adversarial critique, 12-agent pipelines &amp; consensus</text>
+    <text x="60" y="44" font-size="11" fill="#94a3b8" class="sans">Adversarial critique, 12-agent pipelines &amp; consensus</text>
 
     <!-- Pill Tag -->
-    <rect x="328" y="12" width="80" height="20" rx="6" fill="#0a0a0a" stroke="#e2e8f0" stroke-width="0.8" />
+    <rect x="328" y="12" width="80" height="20" rx="6" fill="#141414" stroke="#94a3b8" stroke-width="0.8" />
     <text x="368" y="26" font-size="9.5" font-weight="700" fill="#e2e8f0" text-anchor="middle" class="mono">CrewAI / Swarm</text>
   </g>
 
   <!-- ITEM 2: INTELLIGENT RAG -->
   <g transform="translate(24, 142)">
-    <rect x="0" y="0" width="422" height="64" rx="10" fill="url(#rowBg)" stroke="#080808" stroke-width="1" />
+    <rect x="0" y="0" width="422" height="64" rx="10" fill="url(#rowBg)" stroke="#111111" stroke-width="1" />
 
     <!-- Icon: Search / Vector DB -->
     <g transform="translate(14, 15)">
-      <rect x="0" y="0" width="34" height="34" rx="8" fill="#0a0a0a" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#141414" stroke="#94a3b8" stroke-width="1" />
       <circle cx="15" cy="15" r="5" fill="none" stroke="#e2e8f0" stroke-width="1.8" />
       <line x1="19" y1="19" x2="25" y2="25" stroke="#e2e8f0" stroke-width="1.8" stroke-linecap="round" />
     </g>
 
     <!-- Text Info -->
     <text x="60" y="24" font-size="13.5" font-weight="700" fill="#e2e8f0" class="sans">Context-Aware Hybrid RAG</text>
-    <text x="60" y="44" font-size="11" fill="#e2e8f0" class="sans">Dense/sparse vector retrieval &amp; semantic reranking</text>
+    <text x="60" y="44" font-size="11" fill="#94a3b8" class="sans">Dense/sparse vector retrieval &amp; semantic reranking</text>
 
     <!-- Pill Tag -->
-    <rect x="330" y="12" width="78" height="20" rx="6" fill="#0a0a0a" stroke="#e2e8f0" stroke-width="0.8" />
+    <rect x="330" y="12" width="78" height="20" rx="6" fill="#141414" stroke="#94a3b8" stroke-width="0.8" />
     <text x="369" y="26" font-size="9.5" font-weight="700" fill="#e2e8f0" text-anchor="middle" class="mono">Pinecone / LLMs</text>
   </g>
 
   <!-- ITEM 3: PREDICTIVE TELEMETRY -->
   <g transform="translate(24, 216)">
-    <rect x="0" y="0" width="422" height="64" rx="10" fill="url(#rowBg)" stroke="#080808" stroke-width="1" />
+    <rect x="0" y="0" width="422" height="64" rx="10" fill="url(#rowBg)" stroke="#111111" stroke-width="1" />
 
     <!-- Icon: Telemetry Graph -->
     <g transform="translate(14, 15)">
-      <rect x="0" y="0" width="34" height="34" rx="8" fill="#080808" stroke="#e2e8f0" stroke-width="1" />
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#101010" stroke="#94a3b8" stroke-width="1" />
       <path d="M8 24 L14 16 L20 20 L26 10" fill="none" stroke="#e2e8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
     </g>
 
     <!-- Text Info -->
     <text x="60" y="24" font-size="13.5" font-weight="700" fill="#e2e8f0" class="sans">Autonomous Telemetry &amp; IoT</text>
-    <text x="60" y="44" font-size="11" fill="#e2e8f0" class="sans">Real-time anomaly triage &amp; automated facility action</text>
+    <text x="60" y="44" font-size="11" fill="#94a3b8" class="sans">Real-time anomaly triage &amp; automated facility action</text>
 
     <!-- Pill Tag -->
-    <rect x="332" y="12" width="76" height="20" rx="6" fill="#080808" stroke="#333333" stroke-width="0.8" />
+    <rect x="332" y="12" width="76" height="20" rx="6" fill="#101010" stroke="#404040" stroke-width="0.8" />
     <text x="370" y="26" font-size="9.5" font-weight="700" fill="#e2e8f0" text-anchor="middle" class="mono">IoT / Events</text>
   </g>
 
   <!-- ITEM 4: PRODUCTION SCALE -->
   <g transform="translate(24, 290)">
-    <rect x="0" y="0" width="422" height="64" rx="10" fill="url(#rowBg)" stroke="#080808" stroke-width="1" />
+    <rect x="0" y="0" width="422" height="64" rx="10" fill="url(#rowBg)" stroke="#111111" stroke-width="1" />
 
     <!-- Icon: Production Microservices -->
     <g transform="translate(14, 15)">
-      <rect x="0" y="0" width="34" height="34" rx="8" fill="#0c0c0c" stroke="#e2e8f0" stroke-width="1" />
-      <circle cx="17" cy="17" r="6" fill="none" stroke="#e2e8f0" stroke-width="1.8" />
-      <circle cx="17" cy="17" r="2" fill="#e2e8f0" />
+      <rect x="0" y="0" width="34" height="34" rx="8" fill="#1c1917" stroke="#ea580c" stroke-width="1" />
+      <circle cx="17" cy="17" r="6" fill="none" stroke="#fb923c" stroke-width="1.8" />
+      <circle cx="17" cy="17" r="2" fill="#fb923c" />
     </g>
 
     <!-- Text Info -->
     <text x="60" y="24" font-size="13.5" font-weight="700" fill="#e2e8f0" class="sans">Fault-Tolerant AI Architecture</text>
-    <text x="60" y="44" font-size="11" fill="#e2e8f0" class="sans">Low-latency agent pipelines &amp; cloud deployment</text>
+    <text x="60" y="44" font-size="11" fill="#94a3b8" class="sans">Low-latency agent pipelines &amp; cloud deployment</text>
 
     <!-- Pill Tag -->
-    <rect x="330" y="12" width="78" height="20" rx="6" fill="#181818" stroke="#3b3b3b" stroke-width="0.8" />
-    <text x="369" y="26" font-size="9.5" font-weight="700" fill="#e2e8f0" text-anchor="middle" class="mono">Docker / Cloud</text>
+    <rect x="330" y="12" width="78" height="20" rx="6" fill="#271c19" stroke="#9a3412" stroke-width="0.8" />
+    <text x="369" y="26" font-size="9.5" font-weight="700" fill="#fdba74" text-anchor="middle" class="mono">Docker / Cloud</text>
   </g>
 </svg>

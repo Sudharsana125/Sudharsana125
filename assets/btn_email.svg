@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 48" width="100%" height="100%">
   <defs>
     <linearGradient id="btnBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#020202" />
-      <stop offset="100%" stop-color="#050505" />
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="100%" stop-color="#0b0b0b" />
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="138" height="46" rx="8" fill="url(#btnBg)" stroke="#3a3a3a" stroke-width="1.2" />
+  <rect x="1" y="1" width="138" height="46" rx="8" fill="url(#btnBg)" stroke="#494949" stroke-width="1.2" />
   <g transform="translate(14, 15)">
     <rect x="0" y="0" width="22" height="16" rx="3" fill="none" stroke="#e2e8f0" stroke-width="1.8" />
     <path d="M0 2 L11 9 L22 2" fill="none" stroke="#e2e8f0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
   </g>
-  <text x="76" y="30" font-size="13" font-weight="600" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">Email</text>
+  <text x="76" y="30" font-size="13" font-weight="600" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">Email</text>
 </svg>
