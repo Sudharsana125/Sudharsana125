@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" width="100%" height="100%">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0a0a0a" />
-      <stop offset="100%" stop-color="#070707" />
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="100%" stop-color="#030303" />
     </linearGradient>
 
     <linearGradient id="cardBorderAegis" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#111111" />
+      <stop offset="0%" stop-color="#080808" />
       <stop offset="40%" stop-color="#e2e8f0" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#111111" />
+      <stop offset="100%" stop-color="#080808" />
     </linearGradient>
 
     <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#e2e8f0" />
-      <stop offset="100%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#e2e8f0" />
     </linearGradient>
 
     <linearGradient id="globeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#e2e8f0" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#353535" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#2a2a2a" stop-opacity="0.05" />
     </linearGradient>
 
     <filter id="glowBlue" x="-40%" y="-40%" width="180%" height="180%">
@@ -39,12 +39,12 @@
 
   <!-- Top Controls -->
   <!-- 01 Badge -->
-  <rect x="18" y="16" width="34" height="22" rx="6" fill="#050505" stroke="#353535" stroke-width="1" />
+  <rect x="18" y="16" width="34" height="22" rx="6" fill="#020202" stroke="#2a2a2a" stroke-width="1" />
   <text x="35" y="31" font-size="11" font-weight="700" fill="#e2e8f0" text-anchor="middle" class="mono">01</text>
 
   <!-- Arrow Circle Icon -->
-  <circle cx="286" cy="27" r="13" fill="#050505" stroke="#111111" stroke-width="1" />
-  <path d="M282 31L290 23M290 23H284M290 23V29" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="286" cy="27" r="13" fill="#020202" stroke="#080808" stroke-width="1" />
+  <path d="M282 31L290 23M290 23H284M290 23V29" stroke="#e2e8f0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 
   <!-- 3D Globe & Shield Illustration -->
   <g transform="translate(160, 105)">
@@ -52,10 +52,10 @@
     <circle cx="0" cy="0" r="48" fill="#e2e8f0" fill-opacity="0.15" filter="url(#glowBlue)" />
     
     <!-- Outer Globe Rings -->
-    <circle cx="0" cy="0" r="42" fill="url(#globeGlow)" stroke="#353535" stroke-width="1.2" />
-    <ellipse cx="0" cy="0" rx="42" ry="18" fill="none" stroke="#94a3b8" stroke-width="0.9" stroke-dasharray="3 3" opacity="0.7" />
-    <ellipse cx="0" cy="0" rx="18" ry="42" fill="none" stroke="#94a3b8" stroke-width="0.9" opacity="0.6" />
-    <line x1="-42" y1="0" x2="42" y2="0" stroke="#94a3b8" stroke-width="0.8" opacity="0.5" />
+    <circle cx="0" cy="0" r="42" fill="url(#globeGlow)" stroke="#2a2a2a" stroke-width="1.2" />
+    <ellipse cx="0" cy="0" rx="42" ry="18" fill="none" stroke="#e2e8f0" stroke-width="0.9" stroke-dasharray="3 3" opacity="0.7" />
+    <ellipse cx="0" cy="0" rx="18" ry="42" fill="none" stroke="#e2e8f0" stroke-width="0.9" opacity="0.6" />
+    <line x1="-42" y1="0" x2="42" y2="0" stroke="#e2e8f0" stroke-width="0.8" opacity="0.5" />
 
     <!-- Constellation Dots & Links -->
     <line x1="-24" y1="-18" x2="-8" y2="-28" stroke="#e2e8f0" stroke-width="0.8" opacity="0.8" />
@@ -76,39 +76,39 @@
     <!-- Center Glowing Shield -->
     <g transform="translate(0, 10) scale(1.15)">
       <!-- Shield Drop Shadow / Glow -->
-      <path d="M0 -18 L14 -12 C14 4, 8 16, 0 20 C-8 16, -14 4, -14 -12 Z" fill="#94a3b8" fill-opacity="0.3" filter="url(#glowBlue)" />
+      <path d="M0 -18 L14 -12 C14 4, 8 16, 0 20 C-8 16, -14 4, -14 -12 Z" fill="#e2e8f0" fill-opacity="0.3" filter="url(#glowBlue)" />
       <!-- Main Shield -->
-      <path d="M0 -18 L14 -12 C14 4, 8 16, 0 20 C-8 16, -14 4, -14 -12 Z" fill="#050505" stroke="#e2e8f0" stroke-width="1.8" />
+      <path d="M0 -18 L14 -12 C14 4, 8 16, 0 20 C-8 16, -14 4, -14 -12 Z" fill="#020202" stroke="#e2e8f0" stroke-width="1.8" />
       <!-- Inner Shield Highlight -->
       <path d="M0 -13 L9 -9 C9 3, 5 11, 0 14 C-5 11, -9 3, -9 -9 Z" fill="url(#shieldGrad)" />
-      <path d="M0 -13 L0 14 C-5 11, -9 3, -9 -9 Z" fill="#ffffff" fill-opacity="0.15" />
+      <path d="M0 -13 L0 14 C-5 11, -9 3, -9 -9 Z" fill="#e2e8f0" fill-opacity="0.15" />
     </g>
   </g>
 
   <!-- Title -->
-  <text x="20" y="196" font-size="20" font-weight="800" fill="#ffffff" class="sans">AegisMesh</text>
+  <text x="20" y="196" font-size="20" font-weight="800" fill="#e2e8f0" class="sans">AegisMesh</text>
 
   <!-- Description -->
-  <text x="20" y="222" font-size="12" fill="#94a3b8" class="sans">AI-powered crisis command center for</text>
-  <text x="20" y="240" font-size="12" fill="#94a3b8" class="sans">smarter facility &amp; emergency management</text>
-  <text x="20" y="258" font-size="12" fill="#94a3b8" class="sans">using multi-agent systems.</text>
+  <text x="20" y="222" font-size="12" fill="#e2e8f0" class="sans">AI-powered crisis command center for</text>
+  <text x="20" y="240" font-size="12" fill="#e2e8f0" class="sans">smarter facility &amp; emergency management</text>
+  <text x="20" y="258" font-size="12" fill="#e2e8f0" class="sans">using multi-agent systems.</text>
 
   <!-- Tags Row -->
   <g transform="translate(18, 304)">
     <!-- CrewAI -->
-    <rect x="0" y="0" width="62" height="26" rx="6" fill="#050505" stroke="#111111" stroke-width="1" />
+    <rect x="0" y="0" width="62" height="26" rx="6" fill="#020202" stroke="#080808" stroke-width="1" />
     <text x="31" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">CrewAI</text>
 
     <!-- Python -->
-    <rect x="68" y="0" width="58" height="26" rx="6" fill="#050505" stroke="#111111" stroke-width="1" />
+    <rect x="68" y="0" width="58" height="26" rx="6" fill="#020202" stroke="#080808" stroke-width="1" />
     <text x="97" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">Python</text>
 
     <!-- AWS -->
-    <rect x="132" y="0" width="46" height="26" rx="6" fill="#050505" stroke="#111111" stroke-width="1" />
+    <rect x="132" y="0" width="46" height="26" rx="6" fill="#020202" stroke="#080808" stroke-width="1" />
     <text x="155" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">AWS</text>
 
     <!-- Multi-Agent -->
-    <rect x="184" y="0" width="94" height="26" rx="6" fill="#050505" stroke="#111111" stroke-width="1" />
+    <rect x="184" y="0" width="94" height="26" rx="6" fill="#020202" stroke="#080808" stroke-width="1" />
     <text x="231" y="17" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" class="sans">Multi-Agent</text>
   </g>
 </svg>
