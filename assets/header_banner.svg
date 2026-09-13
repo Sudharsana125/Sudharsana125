@@ -87,7 +87,6 @@
       <text x="56" y="0" font-size="13.5" font-weight="600" fill="#94a3b8" letter-spacing="1" class="sub-font">
         Nice to meet you
       </text>
-
       <!-- Right Accent Line -->
       <line x1="210" y1="-5" x2="255" y2="-5" stroke="#253a52" stroke-width="1.6" stroke-linecap="round" />
     </g>
