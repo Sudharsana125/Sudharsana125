@@ -72,8 +72,4 @@
   <br/><br/>
 
   <!-- ==================== FOOTER ==================== -->
-  <p align="center">
-    <sub style="color: #64748B; letter-spacing: 2px;">✦ DESIGNED WITH OBSESSIVE PRECISION IN BLACK &amp; METALLIC SILVER ✦</sub>
-  </p>
-
 </div>
