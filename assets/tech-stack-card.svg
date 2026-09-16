@@ -113,11 +113,11 @@
     <polygon points="390,46 385,42 385,50" fill="#FFFFFF" />
 
     <!-- Title: TECH SKILLS -->
-    <text x="550" y="55" text-anchor="middle" class="sans">
+     <text x="550" y="55" text-anchor="middle" class="sans">
       <tspan fill="#FFFFFF" font-weight="900" font-size="32" letter-spacing="4">TECH </tspan>
       <tspan fill="url(#skillsGrad)" font-weight="900" font-size="32" letter-spacing="4">SKILLS</tspan>
     </text>
-
+    
     <!-- Right Silver Accent Line -->
     <polygon points="710,46 715,42 715,50" fill="#FFFFFF" />
     <line x1="720" y1="46" x2="790" y2="46" stroke="url(#borderGrad)" stroke-width="1.5" stroke-linecap="round" />
