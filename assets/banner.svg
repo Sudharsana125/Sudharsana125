@@ -112,5 +112,5 @@
 
   <!-- Bottom Silver Accent Line with diamond -->
   <path d="M 310 180 L 435 180 M 465 180 L 590 180" stroke="url(#silver-border)" stroke-width="1.4" />
-  <polygon points="450,175 455,180 450,185 445,180" fill="#FFFFFF" filter="url(#corner-glow)" />
+  
 </svg>
