@@ -43,7 +43,7 @@
 
   <br/>
 
-  <img src="./assets/snake.svg" alt="GitHub Contribution Snake - Black &amp; Silver Glow" width="100%" />
+  <img src="https://raw.githubusercontent.com/Sudharsana125/Sudharsana125/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake - Black & Silver Glow" width="100%" />
 
   <br/>
 
